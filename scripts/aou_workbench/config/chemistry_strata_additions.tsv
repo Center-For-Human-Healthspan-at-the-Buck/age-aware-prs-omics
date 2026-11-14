@@ -1,0 +1,6 @@
+source_feature	component	measurement_concept_id	unit	target_unit	conversion_factor_to_target	conversion_offset_to_target	final_action	notes
+hba1c	hba1c			percent		0	needs_review	Select percent HbA1c concepts, or use the reviewed IFCC-to-NGSP affine conversion (factor plus offset); never mix units without conversion.
+total_cholesterol	total_cholesterol			mg/dL		0	needs_review	Select total cholesterol concepts; convert mmol/L only with reviewed factor.
+sodium	sodium			mmol/L		0	needs_review	Select serum/plasma sodium concepts and review units.
+dha	dha			manual		0	needs_review	Specialized feature; likely no routine AoU mapping.
+omega3_index	omega3_index			manual		0	needs_review	Do not substitute omega-3 total without review.

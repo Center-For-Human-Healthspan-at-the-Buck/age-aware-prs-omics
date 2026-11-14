@@ -1,0 +1,102 @@
+model	disease_or_prs	feature	feature_lower	gene_name	uniprot	avg_bayes_k	n_runs	percent_reproducibility	direction	fdr	analysis_domain	vae_sign	vae_direction_from_bayes_k
+age_included	Alzheimer_disease_late_onset_PGS000053	vitamin d, 25-oh tot	vitamin d, 25-oh tot			5.845567182	10	100	positive	1e-08	AD_dementia	1.0	positive
+age_included	Timmers_healthspan	alkaline phosphatase	alkaline phosphatase			-5.702619591	10	100	negative	0.000348234	Longevity_healthspan	-1.0	negative
+age_included	Coronary_atherosclerosis_PGS002048_Age_>_45	ferritin	ferritin			4.842393607	10	100	positive	0.000584177	CAD_coronary	1.0	positive
+age_included	Alzheimer_disease_late_onset_PGS000053	diastolic bp	diastolic bp			-5.216843883	10	100	negative	0.00094168	AD_dementia	-1.0	negative
+age_included	Coronary_atherosclerosis_PGS002048	ferritin	ferritin			4.931064478	10	100	positive	0.001561477	CAD_coronary	1.0	positive
+age_included	amyotrophic_lateral_sclerosis	alkaline phosphatase	alkaline phosphatase			-4.568329068	10	100	negative	0.002018739	ALS_MND	-1.0	negative
+age_included	Parkinson_disease_PGS000903_Age_>_45	carbon dioxide (co2)	carbon dioxide (co2)			4.781335011	10	100	positive	0.002034547	Parkinsons	1.0	positive
+age_included	mvAge	glucose	glucose			-4.438767038	10	100	negative	0.002422029	Longevity_healthspan	-1.0	negative
+age_included	Timmers_healthspan	homa-ir	homa-ir			-4.500667273	10	100	negative	0.001768942	Longevity_healthspan	-1.0	negative
+age_included	Parkinson_disease_PGS000903	carbon dioxide (co2)	carbon dioxide (co2)			4.693260818	10	100	positive	0.002247597	Parkinsons	1.0	positive
+age_included	Parkinson_disease_PGS000903_Age_>_45	alkaline phosphatase	alkaline phosphatase			4.156518574	10	100	positive	0.003611402	Parkinsons	1.0	positive
+age_included	Timmers_healthspan	pulse_pressure	pulse_pressure			-3.873701099	10	100	negative	0.004484838	Longevity_healthspan	-1.0	negative
+age_included	Alzheimer_disease_late_onset_PGS000053	omega_6_total	omega_6_total			3.813235326	10	100	positive	0.005049726	AD_dementia	1.0	positive
+age_included	Alzheimer_disease_late_onset_PGS000053_Age_>_45	glucose	glucose			3.793586779	10	100	positive	0.005720164	AD_dementia	1.0	positive
+age_included	Alzheimer_disease_late_onset_PGS000053_Age_>_45	diastolic bp	diastolic bp			-3.581168703	10	100	negative	0.006525256	AD_dementia	-1.0	negative
+age_included	Timmers_longevity_Age_>_45	systolic	systolic			-3.565181626	10	100	negative	0.00600375	Longevity_healthspan	-1.0	negative
+age_included	Timmers_healthspan_Age_>_45	alkaline phosphatase	alkaline phosphatase			-3.776333235	10	100	negative	0.006920973	Longevity_healthspan	-1.0	negative
+age_included	Alzheimer_disease_late_onset_PGS000053	asat (sgot)	asat (sgot)			3.774974637	10	100	positive	0.006834745	AD_dementia	1.0	positive
+age_included	Alzheimers_PGS002753_Age_>_45	omega_6_total	omega_6_total			3.44029663	10	100	positive	0.009283784	AD_dementia	1.0	positive
+age_included	Alzheimer_disease_late_onset_PGS000053	homocysteine, serum	homocysteine, serum			-3.266379731	10	100	negative	0.009644451	AD_dementia	-1.0	negative
+age_included	Type_2_diabetes_T2D_PGS004923	ldl small	ldl small			3.508507739	10	100	positive	0.009938004	T2D	1.0	positive
+age_included	Timmers_healthspan_Age_<_45	homa-ir	homa-ir			-3.35836907	10	100	negative	0.010149242	Longevity_healthspan	-1.0	negative
+age_included	Timmers_lifespan_Age_>_45	hdl particle number	hdl particle number			-3.455634659	10	100	negative	0.010096157	Longevity_healthspan	-1.0	negative
+age_included	Alzheimers_PGS002753	ldl-chol calculation	ldl-chol calculation			3.530915562	10	100	positive	0.010185434	AD_dementia	1.0	positive
+age_included	Parkinson_disease_PGS000903	hdl particle number	hdl particle number			-3.094164391	10	100	negative	0.010400171	Parkinsons	-1.0	negative
+age_included	amyotrophic_lateral_sclerosis	bmi_calc	bmi_calc			-3.470193153	10	100	negative	0.009580101	ALS_MND	-1.0	negative
+age_included	Timmers_lifespan_Age_>_45	mean_arterial_blood_pressure	mean_arterial_blood_pressure			-3.370481925	10	100	negative	0.01175133	Longevity_healthspan	-1.0	negative
+age_included	mvAge	homa-ir	homa-ir			-3.380822886	10	100	negative	0.011338863	Longevity_healthspan	-1.0	negative
+age_included	Parkinson_disease_PGS000903_Age_<_45	ldl particle number	ldl particle number			3.319332193	10	100	positive	0.011052596	Parkinsons	1.0	positive
+age_included	Timmers_healthspan	alat (sgpt)	alat (sgpt)			-3.004563154	10	100	negative	0.012032136	Longevity_healthspan	-1.0	negative
+age_included	Alzheimers_PGS002753_Age_>_45	mean_arterial_blood_pressure	mean_arterial_blood_pressure			-3.309038709	10	100	negative	0.013718865	AD_dementia	-1.0	negative
+age_included	Coronary_atherosclerosis_PGS002048	urea nitrogen	urea nitrogen			2.972546632	10	100	positive	0.014405688	CAD_coronary	1.0	positive
+age_included	Coronary_atherosclerosis_PGS002048	pulse_pressure	pulse_pressure			3.110465785	10	100	positive	0.013169132	CAD_coronary	1.0	positive
+age_included	Timmers_lifespan	crp high sensitivity	crp high sensitivity			-3.350222953	10	100	negative	0.014212824	Longevity_healthspan	-1.0	negative
+age_included	Coronary_artery_disease_PGS004941	vitamin d, 25-oh tot	vitamin d, 25-oh tot			3.230323474	10	100	positive	0.015197621	CAD_coronary	1.0	positive
+age_included	mvAge	chloride	chloride			2.9642821	10	100	positive	0.016519139	Longevity_healthspan	1.0	positive
+age_included	Timmers_lifespan_Age_<_45	crp high sensitivity	crp high sensitivity			-2.900634857	10	100	negative	0.017311342	Longevity_healthspan	-1.0	negative
+age_included	mvAge_Age_<_45	chloride	chloride			2.885919169	8	80	positive	0.017662202	Longevity_healthspan	1.0	positive
+age_included	Coronary_artery_disease_PGS004941_Age_<_45	homocysteine, serum	homocysteine, serum			2.959851824	8	80	positive	0.017859152	CAD_coronary	1.0	positive
+age_included	Coronary_atherosclerosis_PGS002048	chloride	chloride			-2.992293653	10	100	negative	0.018341745	CAD_coronary	-1.0	negative
+age_included	Timmers_longevity_Age_<_45	chloride	chloride			-2.963014573	10	100	negative	0.017886328	Longevity_healthspan	-1.0	negative
+age_included	amyotrophic_lateral_sclerosis_Age_>_45	bun/creat ratio	bun/creat ratio			-2.909002691	10	100	negative	0.018425199	ALS_MND	-1.0	negative
+age_included	amyotrophic_lateral_sclerosis_Age_>_45	alkaline phosphatase	alkaline phosphatase			-2.946821529	10	100	negative	0.019347605	ALS_MND	-1.0	negative
+age_included	Alzheimer_disease_late_onset_PGS000053	systolic	systolic			-2.883178288	9	90	negative	0.018960462	AD_dementia	-1.0	negative
+age_included	Coronary_atherosclerosis_PGS002048_Age_<_45	chloride	chloride			-2.903089284	10	100	negative	0.020484768	CAD_coronary	-1.0	negative
+age_included	mvAge_Age_<_45	carbon dioxide (co2)	carbon dioxide (co2)			-2.783783119	10	100	negative	0.021974185	Longevity_healthspan	-1.0	negative
+age_included	amyotrophic_lateral_sclerosis	crp high sensitivity	crp high sensitivity			2.720926172	10	100	positive	0.024041334	ALS_MND	1.0	positive
+age_included	Coronary_atherosclerosis_PGS002048_Age_>_45	diastolic bp	diastolic bp			-2.800434471	7	70	negative	0.023634234	CAD_coronary	-1.0	negative
+age_included	amyotrophic_lateral_sclerosis	alat (sgpt)	alat (sgpt)			-2.81514887	7	70	negative	0.024392723	ALS_MND	-1.0	negative
+age_included	Timmers_longevity	potassium	potassium			-2.755702583	10	100	negative	0.023302402	Longevity_healthspan	-1.0	negative
+age_included	Heart_failure_PGS001790_Age_<_45	omega_3_total	omega_3_total			-2.826383847	9	90	negative	0.024738481	Heart_failure	-1.0	negative
+age_included	Coronary_atherosclerosis_PGS002048_Age_>_45	pulse_pressure	pulse_pressure			2.692417572	7	70	positive	0.024211054	CAD_coronary	1.0	positive
+age_included	Alzheimers_PGS002753	mean_arterial_blood_pressure	mean_arterial_blood_pressure			-2.821423151	10	100	negative	0.023685709	AD_dementia	-1.0	negative
+age_included	Alzheimer_disease_late_onset_PGS000053_Age_>_45	asat (sgot)	asat (sgot)			2.762964955	8	80	positive	0.026398046	AD_dementia	1.0	positive
+age_included	Alzheimers_PGS002753_Age_>_45	ldl-chol calculation	ldl-chol calculation			2.735779329	9	90	positive	0.026756992	AD_dementia	1.0	positive
+age_included	Coronary_artery_disease_PGS004941_Age_<_45	ggt	ggt			-2.666032732	7	70	negative	0.026446337	CAD_coronary	-1.0	negative
+age_included	amyotrophic_lateral_sclerosis_Age_>_45	bmi_calc	bmi_calc			-2.724562076	8	80	negative	0.027253581	ALS_MND	-1.0	negative
+age_included	Coronary_atherosclerosis_PGS002048	diastolic bp	diastolic bp			-2.635261862	6	60	negative	0.027299723	CAD_coronary	-1.0	negative
+age_included	Timmers_lifespan_Age_>_45	ldl small	ldl small			-2.666287731	9	90	negative	0.029104617	Longevity_healthspan	-1.0	negative
+age_included	Timmers_healthspan_Age_>_45	alat (sgpt)	alat (sgpt)			-2.698380338	6	60	negative	0.02907473	Longevity_healthspan	-1.0	negative
+age_included	Timmers_healthspan_Age_<_45	diastolic bp	diastolic bp			2.696747078	8	80	positive	0.030425136	Longevity_healthspan	1.0	positive
+age_included	Parkinson_disease_PGS000903_Age_<_45	potassium	potassium			2.637452828	7	70	positive	0.030563437	Parkinsons	1.0	positive
+age_included	Timmers_lifespan_Age_>_45	urea nitrogen	urea nitrogen			2.59703123	6	60	positive	0.030758478	Longevity_healthspan	1.0	positive
+age_included	Alzheimers_PGS002753_Age_>_45	linoleic_acid	linoleic_acid			-2.629667396	9	90	negative	0.032900376	AD_dementia	-1.0	negative
+age_included	Alzheimers_PGS002753	hdl chol direct	hdl chol direct			-2.68446506	6	60	negative	0.033177517	AD_dementia	-1.0	negative
+age_included	Alzheimer_disease_late_onset_PGS000053_Age_<_45	homocysteine, serum	homocysteine, serum			-2.553128273	6	60	negative	0.038449789	AD_dementia	-1.0	negative
+age_residualized	Timmers_healthspan	alkaline phosphatase	alkaline phosphatase			-5.981938822	10	100	negative	1e-08	Longevity_healthspan	-1.0	negative
+age_residualized	amyotrophic_lateral_sclerosis	ferritin	ferritin			4.492888371	10	100	positive	1e-08	ALS_MND	1.0	positive
+age_residualized	T2D_cases_vs_HbA1c_filtered_controls_PGS000712	urea nitrogen	urea nitrogen			3.800450581	10	100	positive	0.000729517	T2D	1.0	positive
+age_residualized	amyotrophic_lateral_sclerosis	omega_6_total	omega_6_total			3.585805669	10	100	positive	0.001419725	ALS_MND	1.0	positive
+age_residualized	T2D_cases_vs_HbA1c_filtered_controls_PGS000712	bun/creat ratio	bun/creat ratio			3.725185498	10	100	positive	0.003331985	T2D	1.0	positive
+age_residualized	Coronary_vascular_disease_CVD_PGS004514	ferritin	ferritin			-3.119063051	10	100	negative	0.005981731	CVD_composite	-1.0	negative
+age_residualized	Alzheimers_PGS002753	omega_6_total	omega_6_total			3.250335709	10	100	positive	0.006841772	AD_dementia	1.0	positive
+age_residualized	Timmers_longevity	potassium	potassium			-3.66202196	10	100	negative	0.007996682	Longevity_healthspan	-1.0	negative
+age_residualized	Type_2_diabetes_SNPs_insulin_action_PGS000850	triglycerides	triglycerides			3.039204945	10	100	positive	0.00783205	T2D	1.0	positive
+age_residualized	Longevity_PGS000906	creatinine enz, ser	creatinine enz, ser			-3.209823093	10	100	negative	0.008989513	Longevity_healthspan	-1.0	negative
+age_residualized	Type_2_diabetes_SNPs_insulin_action_secretion_PGS000851	homocysteine, serum	homocysteine, serum			-3.70144398	10	100	negative	0.010964555	T2D	-1.0	negative
+age_residualized	Timmers_longevity	creatinine enz, ser	creatinine enz, ser			3.149144628	10	100	positive	0.014347495	Longevity_healthspan	1.0	positive
+age_residualized	Heart_failure_PGS001790	carbon dioxide (co2)	carbon dioxide (co2)			3.02240718	10	100	positive	0.018588511	Heart_failure	1.0	positive
+age_residualized	Timmers_healthspan	albumin	albumin			-2.855022979	10	100	negative	0.022005221	Longevity_healthspan	-1.0	negative
+age_residualized	Longevity_PGS000906	ldl particle number	ldl particle number			2.940135379	9	90	positive	0.013062319	Longevity_healthspan	1.0	positive
+age_residualized	Longevity_PGS000906	dpa	dpa			3.162621387	9	90	positive	0.017834003	Longevity_healthspan	1.0	positive
+age_residualized	Coronary_atherosclerosis_PGS002048	creatinine enz, ser	creatinine enz, ser			3.069582286	9	90	positive	0.019382032	CAD_coronary	1.0	positive
+age_residualized	Timmers_lifespan	carbon dioxide (co2)	carbon dioxide (co2)			-2.909705111	9	90	negative	0.022401644	Longevity_healthspan	-1.0	negative
+age_residualized	Timmers_healthspan	uric acid	uric acid			3.278329423	8	80	positive	0.005303198	Longevity_healthspan	1.0	positive
+age_residualized	Coronary_vascular_disease_CVD_PGS004514	weight_calc	weight_calc			-3.121429257	8	80	negative	0.014471675	CVD_composite	-1.0	negative
+age_residualized	Type_2_diabetes_SNPs_insulin_action_PGS000850	ldl small	ldl small			-2.671060145	8	80	negative	0.031917792	T2D	-1.0	negative
+age_residualized	T2D_cases_vs_HbA1c_filtered_controls_PGS000712	ferritin	ferritin			-3.575405923	7	70	negative	0.011135213	T2D	-1.0	negative
+age_residualized	T2D_cases_vs_HbA1c_filtered_controls_PGS000712	urea	urea			3.298476598	7	70	positive	0.017356143	T2D	1.0	positive
+age_residualized	Coronary_artery_disease_PGS004941	triglyceride hdl ratio	triglyceride hdl ratio			-3.204328075	7	70	negative	0.017534622	CAD_coronary	-1.0	negative
+age_residualized	Heart_failure_PGS001790	ferritin	ferritin			-3.209221625	7	70	negative	0.018068409	Heart_failure	-1.0	negative
+age_residualized	Timmers_lifespan	hdl particle number	hdl particle number			3.139652982	7	70	positive	0.018254618	Longevity_healthspan	1.0	positive
+age_residualized	Timmers_healthspan	asat (sgot)	asat (sgot)			-3.255629182	7	70	negative	0.020233539	Longevity_healthspan	-1.0	negative
+age_residualized	Type_2_diabetes_SNPs_insulin_action_secretion_PGS000851	lpir_score	lpir_score			3.07258188	7	70	positive	0.020215113	T2D	1.0	positive
+age_residualized	Timmers_lifespan	crp high sensitivity	crp high sensitivity			-2.74646472	7	70	negative	0.022719603	Longevity_healthspan	-1.0	negative
+age_residualized	Type_2_diabetes_SNPs_insulin_action_secretion_PGS000851	pulse_pressure	pulse_pressure			2.688522327	7	70	positive	0.029966784	T2D	1.0	positive
+age_residualized	Type_2_diabetes_SNPs_insulin_action_PGS000850	triglyceride hdl ratio	triglyceride hdl ratio			3.001365475	6	60	positive	0.014337102	T2D	1.0	positive
+age_residualized	Alzheimer_disease_late_onset_PGS000053	ggt	ggt			-2.820188419	6	60	negative	0.023629626	AD_dementia	-1.0	negative
+age_residualized	Coronary_vascular_disease_CVD_PGS004514	alat (sgpt)	alat (sgpt)			-2.824925151	6	60	negative	0.029871056	CVD_composite	-1.0	negative
+age_residualized	Alzheimers_PGS002753	ferritin	ferritin			-2.701443748	6	60	negative	0.03228238	AD_dementia	-1.0	negative
+age_residualized	Coronary_atherosclerosis_PGS002048	omega_3_total	omega_3_total			2.649976901	6	60	positive	0.037470899	CAD_coronary	1.0	positive

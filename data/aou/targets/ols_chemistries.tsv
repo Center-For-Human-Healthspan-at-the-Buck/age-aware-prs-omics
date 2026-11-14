@@ -1,0 +1,104 @@
+candidate_id	model	omic_name	prs_name	beta	effect_direction	fdr_q	p_val	omic_type
+OLS_resid || T2D_cases_vs_HbA1c_filtered_controls_PGS000712 || chemistries || GLYCOHEMOGLOBIN A1C	OLS_resid	GLYCOHEMOGLOBIN A1C	T2D_cases_vs_HbA1c_filtered_controls_PGS000712	1778395.246	positive	7.81e-10	3.23e-13	chemistries
+OLS_resid || Type_2_diabetes_T2D_PGS004923 || chemistries || GLUCOSE	OLS_resid	GLUCOSE	Type_2_diabetes_T2D_PGS004923	4397580.547	positive	1.25e-09	5.32e-13	chemistries
+OLS_resid || Cardiovascular_disease_PGS002316 || chemistries || MEAN ARTERIAL BLOOD PRESSURE	OLS_resid	MEAN ARTERIAL BLOOD PRESSURE	Cardiovascular_disease_PGS002316	8267420.978	positive	2.62e-09	1.21e-12	chemistries
+OLS_resid || Cardiovascular_disease_PGS002316 || chemistries || diastolic	OLS_resid	diastolic	Cardiovascular_disease_PGS002316	8147271.313	positive	2.84e-09	1.34e-12	chemistries
+OLS_resid || Type_2_diabetes_T2D_PGS004923 || chemistries || GLYCOHEMOGLOBIN A1C	OLS_resid	GLYCOHEMOGLOBIN A1C	Type_2_diabetes_T2D_PGS004923	4329884.401	positive	5.24e-09	2.59e-12	chemistries
+OLS_age || Cardiovascular_disease_PGS002316 || chemistries || diastolic	OLS_age	diastolic	Cardiovascular_disease_PGS002316	7752678.913	positive	5.16e-08	2.49e-11	chemistries
+OLS_age || Cardiovascular_disease_PGS002316 || chemistries || MEAN ARTERIAL BLOOD PRESSURE	OLS_age	MEAN ARTERIAL BLOOD PRESSURE	Cardiovascular_disease_PGS002316	7523894.204	positive	2.48e-07	1.46e-10	chemistries
+OLS_age || Type_2_diabetes_T2D_PGS004923 || chemistries || GLUCOSE	OLS_age	GLUCOSE	Type_2_diabetes_T2D_PGS004923	3891596.206	positive	3.34e-07	2e-10	chemistries
+OLS_age || T2D_cases_vs_HbA1c_filtered_controls_PGS000712 || chemistries || GLYCOHEMOGLOBIN A1C	OLS_age	GLYCOHEMOGLOBIN A1C	T2D_cases_vs_HbA1c_filtered_controls_PGS000712	1508115.049	positive	1.04e-06	6.97e-10	chemistries
+OLS_age || Type_2_diabetes_T2D_PGS004923 || chemistries || GLYCOHEMOGLOBIN A1C	OLS_age	GLYCOHEMOGLOBIN A1C	Type_2_diabetes_T2D_PGS004923	3575124.957	positive	9.29e-06	8.02e-09	chemistries
+OLS_resid || Alzheimers_PGS002753 || chemistries || LDL PARTICLE NUMBER	OLS_resid	LDL PARTICLE NUMBER	Alzheimers_PGS002753	2304906.796	positive	1.11e-05	1.09e-08	chemistries
+OLS_resid || Coronary_artery_disease_PGS004941 || chemistries || LDL-CHOL CALCULATION	OLS_resid	LDL-CHOL CALCULATION	Coronary_artery_disease_PGS004941	6826156.091	positive	1.45e-05	1.46e-08	chemistries
+OLS_resid || Type_2_diabetes_T2D_PGS004923 || chemistries || Triglyceride HDL Ratio	OLS_resid	Triglyceride HDL Ratio	Type_2_diabetes_T2D_PGS004923	3460200.873	positive	2.94e-05	3.29e-08	chemistries
+OLS_resid || Type_2_diabetes_T2D_PGS004923 || chemistries || LPIR SCORE	OLS_resid	LPIR SCORE	Type_2_diabetes_T2D_PGS004923	3490246.134	positive	3.39e-05	3.86e-08	chemistries
+OLS_resid || Type_2_diabetes_T2D_PGS004923 || chemistries || systolic	OLS_resid	systolic	Type_2_diabetes_T2D_PGS004923	3561410.989	positive	4.29e-05	5.04e-08	chemistries
+OLS_age || Alzheimers_PGS002753 || chemistries || LDL PARTICLE NUMBER	OLS_age	LDL PARTICLE NUMBER	Alzheimers_PGS002753	2203535.822	positive	4.49e-05	4.6e-08	chemistries
+OLS_resid || T2D_cases_vs_HbA1c_filtered_controls_PGS000712 || chemistries || GLUCOSE	OLS_resid	GLUCOSE	T2D_cases_vs_HbA1c_filtered_controls_PGS000712	1293095.502	positive	6.77e-05	8.34e-08	chemistries
+OLS_resid || T2D_cases_vs_HbA1c_filtered_controls_PGS000712 || chemistries || HDL CHOL DIRECT	OLS_resid	HDL CHOL DIRECT	T2D_cases_vs_HbA1c_filtered_controls_PGS000712	-1419190.631	negative	8.22e-05	1.07e-07	chemistries
+OLS_age || Type_2_diabetes_T2D_PGS004923 || chemistries || Triglyceride HDL Ratio	OLS_age	Triglyceride HDL Ratio	Type_2_diabetes_T2D_PGS004923	3356070.5	positive	8.66e-05	9.37e-08	chemistries
+OLS_age || Type_2_diabetes_T2D_PGS004923 || chemistries || BMI CALC	OLS_age	BMI CALC	Type_2_diabetes_T2D_PGS004923	3371134.822	positive	0.000105	1.17e-07	chemistries
+OLS_resid || Type_2_diabetes_T2D_PGS004923 || chemistries || HDL CHOL DIRECT	OLS_resid	HDL CHOL DIRECT	Type_2_diabetes_T2D_PGS004923	-3560389.952	negative	0.000107	1.41e-07	chemistries
+OLS_resid || Type_2_diabetes_T2D_PGS004923 || chemistries || BMI CALC	OLS_resid	BMI CALC	Type_2_diabetes_T2D_PGS004923	3335726.179	positive	0.000117	1.6e-07	chemistries
+OLS_resid || Coronary_atherosclerosis_PGS002048 || chemistries || LDL-CHOL CALCULATION	OLS_resid	LDL-CHOL CALCULATION	Coronary_atherosclerosis_PGS002048	19351871.25	positive	0.000128	1.78e-07	chemistries
+OLS_resid || Type_2_diabetes_T2D_PGS004923 || chemistries || WEIGHT CALC	OLS_resid	WEIGHT CALC	Type_2_diabetes_T2D_PGS004923	3318053.381	positive	0.000156	2.19e-07	chemistries
+OLS_resid || Type_2_diabetes_T2D_PGS004923 || chemistries || TRIGLYCERIDES	OLS_resid	TRIGLYCERIDES	Type_2_diabetes_T2D_PGS004923	3267770.2	positive	0.000157	2.23e-07	chemistries
+OLS_age || Type_2_diabetes_T2D_PGS004923 || chemistries || LPIR SCORE	OLS_age	LPIR SCORE	Type_2_diabetes_T2D_PGS004923	3320495.196	positive	0.000175	2.17e-07	chemistries
+OLS_age || Type_2_diabetes_T2D_PGS004923 || chemistries || HDL CHOL DIRECT	OLS_age	HDL CHOL DIRECT	Type_2_diabetes_T2D_PGS004923	-3501960.518	negative	0.000192	2.45e-07	chemistries
+OLS_resid || Cardiovascular_disease_PGS002316 || chemistries || systolic	OLS_resid	systolic	Cardiovascular_disease_PGS002316	6055532.017	positive	0.000194	3.04e-07	chemistries
+OLS_resid || Type_2_diabetes_T2D_PGS004923 || chemistries || PULSE PRESSURE	OLS_resid	PULSE PRESSURE	Type_2_diabetes_T2D_PGS004923	3405922.405	positive	0.000266	4.38e-07	chemistries
+OLS_resid || Coronary_artery_disease_PGS004941 || chemistries || CHOLESTEROL, TOTAL	OLS_resid	CHOLESTEROL, TOTAL	Coronary_artery_disease_PGS004941	5986979.601	positive	0.00041	7.64e-07	chemistries
+OLS_resid || mvAge || chemistries || BMI CALC	OLS_resid	BMI CALC	mvAge	-3605085.118	negative	0.00056	1.12e-06	chemistries
+OLS_age || mvAge || chemistries || BMI CALC	OLS_age	BMI CALC	mvAge	-3635520.224	negative	0.00058	9.07e-07	chemistries
+OLS_age || T2D_cases_vs_HbA1c_filtered_controls_PGS000712 || chemistries || HDL CHOL DIRECT	OLS_age	HDL CHOL DIRECT	T2D_cases_vs_HbA1c_filtered_controls_PGS000712	-1311207.187	negative	0.000624	9.9e-07	chemistries
+OLS_age || Type_2_diabetes_T2D_PGS004923 || chemistries || TRIGLYCERIDES	OLS_age	TRIGLYCERIDES	Type_2_diabetes_T2D_PGS004923	3088369.749	positive	0.000664	1.12e-06	chemistries
+OLS_resid || T2D_cases_vs_HbA1c_filtered_controls_PGS000712 || chemistries || LPIR SCORE	OLS_resid	LPIR SCORE	T2D_cases_vs_HbA1c_filtered_controls_PGS000712	1188743.501	positive	0.000964	2.16e-06	chemistries
+OLS_resid || Type_2_diabetes_T2D_PGS004923 || chemistries || MEAN ARTERIAL BLOOD PRESSURE	OLS_resid	MEAN ARTERIAL BLOOD PRESSURE	Type_2_diabetes_T2D_PGS004923	3056806.331	positive	0.00097	2.19e-06	chemistries
+OLS_resid || Coronary_atherosclerosis_PGS002048 || chemistries || LDL PARTICLE NUMBER	OLS_resid	LDL PARTICLE NUMBER	Coronary_atherosclerosis_PGS002048	16240387.58	positive	0.001169403	2.68e-06	chemistries
+OLS_age || Type_2_diabetes_T2D_PGS004923 || chemistries || INSULIN	OLS_age	INSULIN	Type_2_diabetes_T2D_PGS004923	3013022.345	positive	0.001314436	2.57e-06	chemistries
+OLS_age || Type_2_diabetes_T2D_PGS004923 || chemistries || WEIGHT CALC	OLS_age	WEIGHT CALC	Type_2_diabetes_T2D_PGS004923	3010790.708	positive	0.001530426	3.06e-06	chemistries
+OLS_resid || Alzheimers_PGS002753 || chemistries || LDL-CHOL CALCULATION	OLS_resid	LDL-CHOL CALCULATION	Alzheimers_PGS002753	1999365.707	positive	0.001542619	3.85e-06	chemistries
+OLS_resid || Type_2_diabetes_T2D_PGS004923 || chemistries || INSULIN	OLS_resid	INSULIN	Type_2_diabetes_T2D_PGS004923	2957161.606	positive	0.001583715	4e-06	chemistries
+OLS_resid || Heart_failure_PGS001790 || chemistries || WEIGHT CALC	OLS_resid	WEIGHT CALC	Heart_failure_PGS001790	6816020.106	positive	0.001673456	4.26e-06	chemistries
+OLS_resid || Type_2_diabetes_T2D_PGS004923 || chemistries || HOMA-IR	OLS_resid	HOMA-IR	Type_2_diabetes_T2D_PGS004923	2924891.022	positive	0.001753679	4.62e-06	chemistries
+OLS_age || T2D_cases_vs_HbA1c_filtered_controls_PGS000712 || chemistries || GLUCOSE	OLS_age	GLUCOSE	T2D_cases_vs_HbA1c_filtered_controls_PGS000712	1113256.41	positive	0.001958254	4.26e-06	chemistries
+OLS_age || Type_2_diabetes_T2D_PGS004923 || chemistries || HOMA-IR	OLS_age	HOMA-IR	Type_2_diabetes_T2D_PGS004923	2922431.21	positive	0.00204149	4.47e-06	chemistries
+OLS_resid || mvAge || chemistries || LDL PARTICLE NUMBER	OLS_resid	LDL PARTICLE NUMBER	mvAge	-3188432.548	negative	0.003326917	1.01e-05	chemistries
+OLS_resid || Heart_failure_PGS001790 || chemistries || BMI CALC	OLS_resid	BMI CALC	Heart_failure_PGS001790	6493898.365	positive	0.003407578	1.05e-05	chemistries
+OLS_age || Coronary_atherosclerosis_PGS002048 || chemistries || LDL-CHOL CALCULATION	OLS_age	LDL-CHOL CALCULATION	Coronary_atherosclerosis_PGS002048	16519236.5	positive	0.003449682	8.46e-06	chemistries
+OLS_age || Type_2_diabetes_T2D_PGS004923 || chemistries || systolic	OLS_age	systolic	Type_2_diabetes_T2D_PGS004923	2919676.981	positive	0.003449682	8.47e-06	chemistries
+OLS_resid || T2D_cases_vs_HbA1c_filtered_controls_PGS000712 || chemistries || Triglyceride HDL Ratio	OLS_resid	Triglyceride HDL Ratio	T2D_cases_vs_HbA1c_filtered_controls_PGS000712	1089824.178	positive	0.003452054	1.07e-05	chemistries
+OLS_resid || Coronary_atherosclerosis_PGS002048 || chemistries || CHOLESTEROL, TOTAL	OLS_resid	CHOLESTEROL, TOTAL	Coronary_atherosclerosis_PGS002048	16357160.96	positive	0.003588966	1.13e-05	chemistries
+OLS_resid || Coronary_vascular_disease_CVD_PGS004514 || chemistries || LDL PARTICLE NUMBER	OLS_resid	LDL PARTICLE NUMBER	Coronary_vascular_disease_CVD_PGS004514	73951993.26	positive	0.003672905	1.16e-05	chemistries
+OLS_age || Coronary_artery_disease_PGS004941 || chemistries || LDL-CHOL CALCULATION	OLS_age	LDL-CHOL CALCULATION	Coronary_artery_disease_PGS004941	5329190.524	positive	0.0039479	9.99e-06	chemistries
+OLS_resid || Coronary_artery_disease_PGS004941 || chemistries || LDL PARTICLE NUMBER	OLS_resid	LDL PARTICLE NUMBER	Coronary_artery_disease_PGS004941	4904099.616	positive	0.004123994	1.32e-05	chemistries
+OLS_age || Heart_failure_PGS001790 || chemistries || BMI CALC	OLS_age	BMI CALC	Heart_failure_PGS001790	6485996.281	positive	0.004131912	1.08e-05	chemistries
+OLS_age || Cardiovascular_disease_PGS002316 || chemistries || systolic	OLS_age	systolic	Cardiovascular_disease_PGS002316	5173348.043	positive	0.004718276	1.29e-05	chemistries
+OLS_age || T2D_cases_vs_HbA1c_filtered_controls_PGS000712 || chemistries || LPIR SCORE	OLS_age	LPIR SCORE	T2D_cases_vs_HbA1c_filtered_controls_PGS000712	1099992.407	positive	0.005048005	1.39e-05	chemistries
+OLS_resid || mvAge || chemistries || MEAN ARTERIAL BLOOD PRESSURE	OLS_resid	MEAN ARTERIAL BLOOD PRESSURE	mvAge	-3224331.669	negative	0.005145107	1.76e-05	chemistries
+OLS_resid || T2D_cases_vs_HbA1c_filtered_controls_PGS000712 || chemistries || TRIGLYCERIDES	OLS_resid	TRIGLYCERIDES	T2D_cases_vs_HbA1c_filtered_controls_PGS000712	1068732.521	positive	0.00529679	1.82e-05	chemistries
+OLS_resid || mvAge || chemistries || LDL SMALL	OLS_resid	LDL SMALL	mvAge	-2979961.698	negative	0.005803908	2.04e-05	chemistries
+OLS_resid || mvAge || chemistries || WEIGHT CALC	OLS_resid	WEIGHT CALC	mvAge	-3155187.07	negative	0.006421979	2.3e-05	chemistries
+OLS_age || Coronary_atherosclerosis_PGS002048 || chemistries || LDL PARTICLE NUMBER	OLS_age	LDL PARTICLE NUMBER	Coronary_atherosclerosis_PGS002048	14711511.32	positive	0.006925302	2.11e-05	chemistries
+OLS_resid || Type_2_diabetes_T2D_PGS004923 || chemistries || LDL SMALL	OLS_resid	LDL SMALL	Type_2_diabetes_T2D_PGS004923	2515746.432	positive	0.007794999	2.89e-05	chemistries
+OLS_resid || Type_2_diabetes_T2D_PGS004923 || chemistries || ALAT (SGPT)	OLS_resid	ALAT (SGPT)	Type_2_diabetes_T2D_PGS004923	2841022.754	positive	0.007959103	3.01e-05	chemistries
+OLS_resid || Type_2_diabetes_T2D_PGS004923 || chemistries || URIC ACID	OLS_resid	URIC ACID	Type_2_diabetes_T2D_PGS004923	2728135.614	positive	0.008010261	3.04e-05	chemistries
+OLS_age || T2D_cases_vs_HbA1c_filtered_controls_PGS000712 || chemistries || Triglyceride HDL Ratio	OLS_age	Triglyceride HDL Ratio	T2D_cases_vs_HbA1c_filtered_controls_PGS000712	1037551.599	positive	0.009126966	2.98e-05	chemistries
+OLS_resid || Heart_failure_PGS001790 || chemistries || HDL CHOL DIRECT	OLS_resid	HDL CHOL DIRECT	Heart_failure_PGS001790	-6432797.602	negative	0.010061576	4.04e-05	chemistries
+OLS_resid || Heart_failure_PGS001790 || chemistries || MEAN ARTERIAL BLOOD PRESSURE	OLS_resid	MEAN ARTERIAL BLOOD PRESSURE	Heart_failure_PGS001790	6132688.059	positive	0.010078239	4.07e-05	chemistries
+OLS_age || Type_2_diabetes_T2D_PGS004923 || chemistries || PULSE PRESSURE	OLS_age	PULSE PRESSURE	Type_2_diabetes_T2D_PGS004923	2777896.563	positive	0.010447623	3.51e-05	chemistries
+OLS_age || Alzheimers_PGS002753 || chemistries || LDL-CHOL CALCULATION	OLS_age	LDL-CHOL CALCULATION	Alzheimers_PGS002753	1789434.596	positive	0.01058429	3.59e-05	chemistries
+OLS_resid || Type_2_diabetes_T2D_PGS004923 || chemistries || LDL PARTICLE NUMBER	OLS_resid	LDL PARTICLE NUMBER	Type_2_diabetes_T2D_PGS004923	2500612.127	positive	0.013108257	5.73e-05	chemistries
+OLS_age || mvAge || chemistries || LDL SMALL	OLS_age	LDL SMALL	mvAge	-2814321.587	negative	0.015118802	5.51e-05	chemistries
+OLS_resid || mvAge || chemistries || HDL CHOL DIRECT	OLS_resid	HDL CHOL DIRECT	mvAge	3134309.418	positive	0.015166549	6.91e-05	chemistries
+OLS_age || T2D_cases_vs_HbA1c_filtered_controls_PGS000712 || chemistries || TRIGLYCERIDES	OLS_age	TRIGLYCERIDES	T2D_cases_vs_HbA1c_filtered_controls_PGS000712	1003610.468	positive	0.016647021	6.2e-05	chemistries
+OLS_age || Alzheimers_PGS002753 || chemistries || BMI CALC	OLS_age	BMI CALC	Alzheimers_PGS002753	1657369.756	positive	0.016835435	6.33e-05	chemistries
+OLS_resid || Alzheimers_PGS002753 || chemistries || BMI CALC	OLS_resid	BMI CALC	Alzheimers_PGS002753	1635849.468	positive	0.01711621	7.9e-05	chemistries
+OLS_resid || T2D_cases_vs_HbA1c_filtered_controls_PGS000712 || chemistries || URIC ACID	OLS_resid	URIC ACID	T2D_cases_vs_HbA1c_filtered_controls_PGS000712	1019388.38	positive	0.017147616	7.95e-05	chemistries
+OLS_resid || T2D_cases_vs_HbA1c_filtered_controls_PGS000712 || chemistries || PULSE PRESSURE	OLS_resid	PULSE PRESSURE	T2D_cases_vs_HbA1c_filtered_controls_PGS000712	1041389.092	positive	0.019530172	9.32e-05	chemistries
+OLS_age || mvAge || chemistries || HDL CHOL DIRECT	OLS_age	HDL CHOL DIRECT	mvAge	3101080.08	positive	0.021306027	8.65e-05	chemistries
+OLS_age || Heart_failure_PGS001790 || chemistries || WEIGHT CALC	OLS_age	WEIGHT CALC	Heart_failure_PGS001790	5856665.075	positive	0.021696545	8.84e-05	chemistries
+OLS_age || mvAge || chemistries || DHA	OLS_age	DHA	mvAge	3124006.839	positive	0.021803692	8.9e-05	chemistries
+OLS_resid || mvAge || chemistries || DHA	OLS_resid	DHA	mvAge	3108860.122	positive	0.021811119	0.000107	chemistries
+OLS_age || Type_2_diabetes_T2D_PGS004923 || chemistries || MEAN ARTERIAL BLOOD PRESSURE	OLS_age	MEAN ARTERIAL BLOOD PRESSURE	Type_2_diabetes_T2D_PGS004923	2542633.756	positive	0.022605045	9.39e-05	chemistries
+OLS_resid || mvAge || chemistries || LPIR SCORE	OLS_resid	LPIR SCORE	mvAge	-2852813.234	negative	0.022840085	0.000115	chemistries
+OLS_resid || Heart_failure_PGS001790 || chemistries || BUN/CREAT RATIO	OLS_resid	BUN/CREAT RATIO	Heart_failure_PGS001790	-5706045.516	negative	0.025285149	0.00013	chemistries
+OLS_resid || Alzheimers_PGS002753 || chemistries || WEIGHT CALC	OLS_resid	WEIGHT CALC	Alzheimers_PGS002753	1593149.076	positive	0.025588581	0.000132	chemistries
+OLS_age || mvAge || chemistries || WEIGHT CALC	OLS_age	WEIGHT CALC	mvAge	-2898243.503	negative	0.026628811	0.000113	chemistries
+OLS_age || Type_2_diabetes_T2D_PGS004923 || chemistries || LDL SMALL	OLS_age	LDL SMALL	Type_2_diabetes_T2D_PGS004923	2310732.696	positive	0.027496161	0.000118	chemistries
+OLS_age || mvAge || chemistries || OMEGA-3 INDEX	OLS_age	OMEGA-3 INDEX	mvAge	3019271.524	positive	0.030000988	0.000132	chemistries
+OLS_age || Type_2_diabetes_T2D_PGS004923 || chemistries || ALAT (SGPT)	OLS_age	ALAT (SGPT)	Type_2_diabetes_T2D_PGS004923	2603811.68	positive	0.031406971	0.00014	chemistries
+OLS_age || Heart_failure_PGS001790 || chemistries || BUN/CREAT RATIO	OLS_age	BUN/CREAT RATIO	Heart_failure_PGS001790	-5582277.475	negative	0.035366975	0.000165	chemistries
+OLS_age || Coronary_atherosclerosis_PGS002048 || chemistries || LDL SMALL	OLS_age	LDL SMALL	Coronary_atherosclerosis_PGS002048	12568019.17	positive	0.036163999	0.000171	chemistries
+OLS_resid || mvAge || chemistries || OMEGA-3 INDEX	OLS_resid	OMEGA-3 INDEX	mvAge	2949406.942	positive	0.036263525	0.00021	chemistries
+OLS_age || mvAge || chemistries || INSULIN	OLS_age	INSULIN	mvAge	-2795558.978	negative	0.036994789	0.000178	chemistries
+OLS_age || mvAge || chemistries || MEAN ARTERIAL BLOOD PRESSURE	OLS_age	MEAN ARTERIAL BLOOD PRESSURE	mvAge	-2830562.248	negative	0.037963122	0.000185	chemistries
+Spline || Parkinson_disease_PGS000903 || chemistries || SODIUM	Spline	SODIUM	Parkinson_disease_PGS000903	NA	NA	0.038856907	0.000159	chemistries
+OLS_resid || Coronary_vascular_disease_CVD_PGS004514 || chemistries || LDL SMALL	OLS_resid	LDL SMALL	Coronary_vascular_disease_CVD_PGS004514	60076506.44	positive	0.039327468	0.000236	chemistries
+OLS_age || mvAge || chemistries || LPIR SCORE	OLS_age	LPIR SCORE	mvAge	-2778286.142	negative	0.039546214	0.000196	chemistries
+OLS_age || Coronary_artery_disease_PGS004941 || chemistries || CHOLESTEROL, TOTAL	OLS_age	CHOLESTEROL, TOTAL	Coronary_artery_disease_PGS004941	4439411.831	positive	0.044903733	0.000239	chemistries
+OLS_age || Alzheimers_PGS002753 || chemistries || WEIGHT CALC	OLS_age	WEIGHT CALC	Alzheimers_PGS002753	1541768.419	positive	0.045036006	0.000241	chemistries
+OLS_age || Heart_failure_PGS001790 || chemistries || UREA NITROGEN	OLS_age	UREA NITROGEN	Heart_failure_PGS001790	-5385271.324	negative	0.045879131	0.000248	chemistries
+OLS_resid || Coronary_atherosclerosis_PGS002048 || chemistries || LDL SMALL	OLS_resid	LDL SMALL	Coronary_atherosclerosis_PGS002048	12138163.96	positive	0.045984838	0.000294	chemistries
+OLS_resid || mvAge || chemistries || diastolic	OLS_resid	diastolic	mvAge	-2682422.453	negative	0.046606969	0.0003	chemistries

@@ -1,0 +1,59 @@
+candidate_id	model	omic_name	uniprot	gene_name	prs_name	beta	effect_direction	fdr_q	p_val	omic_type
+Spline || Timmers_lifespan || proteomics || P14784	Spline	interleukin 2 receptor, beta	P14784	IL2RB	Timmers_lifespan	NA	NA	7.88e-11	8.16e-15	proteomics
+OLS_age || Type_2_diabetes_T2D_PGS004923 || proteomics || P18065	OLS_age	insulin-like growth factor binding protein 2, 36kDa	P18065	IGFBP2	Type_2_diabetes_T2D_PGS004923	-4719461.483	negative	3.86e-10	1.47e-13	proteomics
+OLS_resid || Type_2_diabetes_T2D_PGS004923 || proteomics || P18065	OLS_resid	insulin-like growth factor binding protein 2, 36kDa	P18065	IGFBP2	Type_2_diabetes_T2D_PGS004923	-4150421.872	negative	1.4e-07	9.17e-11	proteomics
+OLS_age || Type_2_diabetes_T2D_PGS004923 || proteomics || P18510	OLS_age	interleukin 1 receptor antagonist	P18510	IL1RN	Type_2_diabetes_T2D_PGS004923	3981845.879	positive	5.53e-07	3.56e-10	proteomics
+OLS_resid || Type_2_diabetes_T2D_PGS004923 || proteomics || P18510	OLS_resid	interleukin 1 receptor antagonist	P18510	IL1RN	Type_2_diabetes_T2D_PGS004923	3908191.054	positive	1.11e-06	9.05e-10	proteomics
+OLS_resid || Type_2_diabetes_T2D_PGS004923 || proteomics || Q15166	OLS_resid	paraoxonase 3	Q15166	PON3	Type_2_diabetes_T2D_PGS004923	-3910693.521	negative	2.11e-06	1.82e-09	proteomics
+OLS_age || Type_2_diabetes_T2D_PGS004923 || proteomics || Q15166	OLS_age	paraoxonase 3	Q15166	PON3	Type_2_diabetes_T2D_PGS004923	-3922141.254	negative	2.33e-06	1.64e-09	proteomics
+Spline || Parkinson_disease_PGS000903 || proteomics || Q9NYY1	Spline	interleukin 20	Q9NYY1	IL20	Parkinson_disease_PGS000903	NA	NA	4.03e-05	2.74e-08	proteomics
+Spline || Cardiovascular_disease_PGS002316 || proteomics || Q9NYY1	Spline	interleukin 20	Q9NYY1	IL20	Cardiovascular_disease_PGS002316	NA	NA	6.64e-05	4.89e-08	proteomics
+OLS_resid || Type_2_diabetes_T2D_PGS004923 || proteomics || P41159	OLS_resid	leptin	P41159	LEP	Type_2_diabetes_T2D_PGS004923	3422091.718	positive	7.75e-05	9.85e-08	proteomics
+Spline || T2D_cases_vs_HbA1c_filtered_controls_PGS000712 || proteomics || P14784	Spline	interleukin 2 receptor, beta	P14784	IL2RB	T2D_cases_vs_HbA1c_filtered_controls_PGS000712	NA	NA	0.000204	1.81e-07	proteomics
+OLS_resid || Type_2_diabetes_T2D_PGS004923 || proteomics || P01130	OLS_resid	low density lipoprotein receptor	P01130	LDLR	Type_2_diabetes_T2D_PGS004923	3164028.04	positive	0.000555	1.1e-06	proteomics
+OLS_age || Type_2_diabetes_T2D_PGS004923 || proteomics || P41159	OLS_age	leptin	P41159	LEP	Type_2_diabetes_T2D_PGS004923	3134107.073	positive	0.000664	1.1e-06	proteomics
+OLS_age || T2D_cases_vs_HbA1c_filtered_controls_PGS000712 || proteomics || P18065	OLS_age	insulin-like growth factor binding protein 2, 36kDa	P18065	IGFBP2	T2D_cases_vs_HbA1c_filtered_controls_PGS000712	-1230697.714	negative	0.000699	1.2e-06	proteomics
+OLS_age || mvAge || proteomics || P18510	OLS_age	interleukin 1 receptor antagonist	P18510	IL1RN	mvAge	-3586386.166	negative	0.000728	1.26e-06	proteomics
+Spline || Coronary_artery_disease_PGS004941 || proteomics || Q9NYY1	Spline	interleukin 20	Q9NYY1	IL20	Coronary_artery_disease_PGS004941	NA	NA	0.000871	1.03e-06	proteomics
+OLS_resid || Type_2_diabetes_T2D_PGS004923 || proteomics || P15090	OLS_resid	fatty acid binding protein 4, adipocyte	P15090	FABP4	Type_2_diabetes_T2D_PGS004923	2929287.022	positive	0.001242577	2.89e-06	proteomics
+OLS_age || Type_2_diabetes_T2D_PGS004923 || proteomics || P08833	OLS_age	insulin-like growth factor binding protein 1	P08833	IGFBP1	Type_2_diabetes_T2D_PGS004923	-3012688.001	negative	0.001478245	2.94e-06	proteomics
+OLS_resid || mvAge || proteomics || P18510	OLS_resid	interleukin 1 receptor antagonist	P18510	IL1RN	mvAge	-3413059.09	negative	0.001734979	4.48e-06	proteomics
+OLS_resid || Type_2_diabetes_T2D_PGS004923 || proteomics || P08833	OLS_resid	insulin-like growth factor binding protein 1	P08833	IGFBP1	Type_2_diabetes_T2D_PGS004923	-2894116.415	negative	0.00230442	6.44e-06	proteomics
+OLS_resid || T2D_cases_vs_HbA1c_filtered_controls_PGS000712 || proteomics || Q15166	OLS_resid	paraoxonase 3	Q15166	PON3	T2D_cases_vs_HbA1c_filtered_controls_PGS000712	-1148048.685	negative	0.002871687	8.36e-06	proteomics
+OLS_resid || Type_2_diabetes_T2D_PGS004923 || proteomics || P14210	OLS_resid	hepatocyte growth factor (hepapoietin A; scatter factor)	P14210	HGF	Type_2_diabetes_T2D_PGS004923	2812322.588	positive	0.004207931	1.35e-05	proteomics
+OLS_age || Type_2_diabetes_T2D_PGS004923 || proteomics || P01130	OLS_age	low density lipoprotein receptor	P01130	LDLR	Type_2_diabetes_T2D_PGS004923	2848315.772	positive	0.004616409	1.26e-05	proteomics
+OLS_resid || T2D_cases_vs_HbA1c_filtered_controls_PGS000712 || proteomics || P18065	OLS_resid	insulin-like growth factor binding protein 2, 36kDa	P18065	IGFBP2	T2D_cases_vs_HbA1c_filtered_controls_PGS000712	-1092248.637	negative	0.005012893	1.7e-05	proteomics
+OLS_age || mvAge || proteomics || Q15166	OLS_age	paraoxonase 3	Q15166	PON3	mvAge	3259916.911	positive	0.006003035	1.73e-05	proteomics
+OLS_resid || mvAge || proteomics || P41159	OLS_resid	leptin	P41159	LEP	mvAge	-3178171.42	negative	0.00610569	2.16e-05	proteomics
+OLS_age || T2D_cases_vs_HbA1c_filtered_controls_PGS000712 || proteomics || Q15166	OLS_age	paraoxonase 3	Q15166	PON3	T2D_cases_vs_HbA1c_filtered_controls_PGS000712	-1105624.778	negative	0.006138457	1.79e-05	proteomics
+Spline || Coronary_artery_disease_PGS004941 || proteomics || P13500	Spline	chemokine (C-C motif) ligand 2	P13500	CCL2	Coronary_artery_disease_PGS004941	NA	NA	0.006481223	1.42e-05	proteomics
+OLS_age || T2D_cases_vs_HbA1c_filtered_controls_PGS000712 || proteomics || Q96PL1	OLS_age	secretoglobin, family 3A, member 2	Q96PL1	SCGB3A2	T2D_cases_vs_HbA1c_filtered_controls_PGS000712	-1095780.022	negative	0.009126966	2.98e-05	proteomics
+OLS_resid || Type_2_diabetes_T2D_PGS004923 || proteomics || P13500	OLS_resid	chemokine (C-C motif) ligand 2	P13500	CCL2	Type_2_diabetes_T2D_PGS004923	2664379.386	positive	0.010903757	4.49e-05	proteomics
+OLS_resid || mvAge || proteomics || Q15166	OLS_resid	paraoxonase 3	Q15166	PON3	mvAge	3068456.154	positive	0.012187108	5.24e-05	proteomics
+OLS_resid || Type_2_diabetes_T2D_PGS004923 || proteomics || P05231	OLS_resid	interleukin 6 (interferon, beta 2)	P05231	IL6	Type_2_diabetes_T2D_PGS004923	2478471.008	positive	0.012270581	5.29e-05	proteomics
+OLS_age || Type_2_diabetes_T2D_PGS004923 || proteomics || Q8NF90	OLS_age	fibroblast growth factor 5	Q8NF90	FGF5	Type_2_diabetes_T2D_PGS004923	-2663357.533	negative	0.012835529	4.52e-05	proteomics
+OLS_resid || Type_2_diabetes_SNPs_insulin_action_PGS000850 || proteomics || Q99727	OLS_resid	TIMP metallopeptidase inhibitor 4	Q99727	TIMP4	Type_2_diabetes_SNPs_insulin_action_PGS000850	-6219821.14	negative	0.015508909	7.1e-05	proteomics
+OLS_age || Timmers_longevity || proteomics || P35247	OLS_age	surfactant protein D	P35247	SFTPD	Timmers_longevity	3759894.889	positive	0.018496301	7.21e-05	proteomics
+OLS_resid || T2D_cases_vs_HbA1c_filtered_controls_PGS000712 || proteomics || Q96PL1	OLS_resid	secretoglobin, family 3A, member 2	Q96PL1	SCGB3A2	T2D_cases_vs_HbA1c_filtered_controls_PGS000712	-1028791.269	negative	0.018991817	9.05e-05	proteomics
+Spline || Timmers_lifespan || proteomics || Q9NYY1	Spline	interleukin 20	Q9NYY1	IL20	Timmers_lifespan	NA	NA	0.020096306	5.71e-05	proteomics
+OLS_resid || Type_2_diabetes_T2D_PGS004923 || proteomics || Q9NSA1	OLS_resid	fibroblast growth factor 21	Q9NSA1	FGF21	Type_2_diabetes_T2D_PGS004923	2481328.916	positive	0.020113141	9.7e-05	proteomics
+OLS_resid || mvAge || proteomics || P05231	OLS_resid	interleukin 6 (interferon, beta 2)	P05231	IL6	mvAge	-2795252.759	negative	0.020160128	9.74e-05	proteomics
+Spline || Type_2_diabetes_SNPs_insulin_action_PGS000850 || proteomics || Q9NYY1	Spline	interleukin 20	Q9NYY1	IL20	Type_2_diabetes_SNPs_insulin_action_PGS000850	NA	NA	0.022268273	6.94e-05	proteomics
+OLS_age || mvAge || proteomics || P41159	OLS_age	leptin	P41159	LEP	mvAge	-2929296.453	negative	0.02243151	9.21e-05	proteomics
+Spline || Timmers_longevity || proteomics || Q9NYY1	Spline	interleukin 20	Q9NYY1	IL20	Timmers_longevity	NA	NA	0.022735718	7.22e-05	proteomics
+OLS_age || Type_2_diabetes_T2D_PGS004923 || proteomics || P15090	OLS_age	fatty acid binding protein 4, adipocyte	P15090	FABP4	Type_2_diabetes_T2D_PGS004923	2416395.298	positive	0.025191348	0.000106	proteomics
+OLS_resid || Timmers_longevity || proteomics || P35247	OLS_resid	surfactant protein D	P35247	SFTPD	Timmers_longevity	3608155.946	positive	0.027192231	0.000144	proteomics
+OLS_resid || T2D_cases_vs_HbA1c_filtered_controls_PGS000712 || proteomics || P18510	OLS_resid	interleukin 1 receptor antagonist	P18510	IL1RN	T2D_cases_vs_HbA1c_filtered_controls_PGS000712	961092.7573	positive	0.027198399	0.000145	proteomics
+OLS_age || mvAge || proteomics || P08253	OLS_age	matrix metallopeptidase 2 (gelatinase A, 72kDa gelatinase, 72kDa type IV collagenase)	P08253	MMP2	mvAge	3013000.1	positive	0.028073527	0.000121	proteomics
+Spline || Longevity_PGS000906 || proteomics || P14784	Spline	interleukin 2 receptor, beta	P14784	IL2RB	Longevity_PGS000906	NA	NA	0.028846205	9.92e-05	proteomics
+OLS_age || T2D_cases_vs_HbA1c_filtered_controls_PGS000712 || proteomics || P18510	OLS_age	interleukin 1 receptor antagonist	P18510	IL1RN	T2D_cases_vs_HbA1c_filtered_controls_PGS000712	964291.1344	positive	0.029467939	0.000128	proteomics
+Spline || Cardiovascular_disease_PGS002316 || proteomics || P14784	Spline	interleukin 2 receptor, beta	P14784	IL2RB	Cardiovascular_disease_PGS002316	NA	NA	0.030744455	0.000109	proteomics
+OLS_age || Type_2_diabetes_SNPs_insulin_action_PGS000850 || proteomics || Q99727	OLS_age	TIMP metallopeptidase inhibitor 4	Q99727	TIMP4	Type_2_diabetes_SNPs_insulin_action_PGS000850	-5843373.303	negative	0.037963122	0.000185	proteomics
+OLS_age || mvAge || proteomics || Q12860	OLS_age	contactin 1	Q12860	CNTN1	mvAge	2901604.098	positive	0.038068237	0.000186	proteomics
+OLS_resid || mvAge || proteomics || Q12860	OLS_resid	contactin 1	Q12860	CNTN1	mvAge	2860586.227	positive	0.039518078	0.000238	proteomics
+OLS_age || mvAge || proteomics || P05231	OLS_age	interleukin 6 (interferon, beta 2)	P05231	IL6	mvAge	-2664308.907	negative	0.040365657	0.000205	proteomics
+OLS_age || Type_2_diabetes_T2D_PGS004923 || proteomics || Q92876	OLS_age	kallikrein-related peptidase 6	Q92876	KLK6	Type_2_diabetes_T2D_PGS004923	-2397041.277	negative	0.045469704	0.000244	proteomics
+OLS_resid || mvAge || proteomics || P08253	OLS_resid	matrix metallopeptidase 2 (gelatinase A, 72kDa gelatinase, 72kDa type IV collagenase)	P08253	MMP2	mvAge	2840009.858	positive	0.045984838	0.000295	proteomics
+OLS_age || Type_2_diabetes_T2D_PGS004923 || proteomics || P05231	OLS_age	interleukin 6 (interferon, beta 2)	P05231	IL6	Type_2_diabetes_T2D_PGS004923	2243668.825	positive	0.046470642	0.000254	proteomics
+Spline || Type_2_diabetes_T2D_PGS004923 || proteomics || Q9NYY1	Spline	interleukin 20	Q9NYY1	IL20	Type_2_diabetes_T2D_PGS004923	NA	NA	0.047257304	0.000209	proteomics
+OLS_age || Coronary_vascular_disease_CVD_PGS004514 || proteomics || NT-proBNP	OLS_age	N-terminal prohormone brain natriuretic peptide	NT-proBNP	NT-proBNP	Coronary_vascular_disease_CVD_PGS004514	-51528983.13	negative	0.049097797	0.000274	proteomics

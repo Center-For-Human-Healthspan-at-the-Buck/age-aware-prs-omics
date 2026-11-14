@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated article."
+title: "Analysis and figure-generation code for age-informed modeling of multi-omic manifestations of polygenic risk"
+type: software
+authors:
+  - family-names: Nogal
+    given-names: Bartek
+  - family-names: Earls
+    given-names: John C.
+  - family-names: Nahman
+    given-names: Ornit
+  - family-names: Price
+    given-names: Nathan D.
+version: 0.2.0
+abstract: "Figure generation from aggregate results, analyte-wise OLS and age-interaction analysis, and All of Us disease-association workflows."

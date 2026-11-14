@@ -1,0 +1,5 @@
+method	omic_type	n_nominated	n_modelled	n_concordant	concordant_fraction
+OLS	chemistries	36	26	16	0.6153846153846154
+OLS	proteomics	16	16	12	0.75
+VAE	chemistries	52	43	21	0.4883720930232558
+VAE	proteomics	84	81	21	0.25925925925925924

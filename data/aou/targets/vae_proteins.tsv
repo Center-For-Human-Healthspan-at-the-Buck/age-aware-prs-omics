@@ -1,0 +1,148 @@
+model	disease_or_prs	feature	feature_lower	gene_name	uniprot	avg_bayes_k	n_runs	percent_reproducibility	direction	fdr
+age_included	Coronary_atherosclerosis_PGS002048	SLAMF1	slamf1	SLAMF1	Q13291	-4.304956361	10	100	negative	0.002243945
+age_included	Coronary_atherosclerosis_PGS002048	chemokine (c-c motif) ligand 15	chemokine (c-c motif) ligand 15	CCL15	Q16663	-3.485883631	10	100	negative	0.009580066
+age_included	amyotrophic_lateral_sclerosis	IL5	il5	IL5	P05113	-3.15550528	10	100	negative	0.012995375
+age_included	Alzheimer_disease_late_onset_PGS000053	chemokine (c-c motif) ligand 13	chemokine (c-c motif) ligand 13	CCL13	Q99616	3.297214723	10	100	positive	0.014205188
+age_included	Alzheimer_disease_late_onset_PGS000053	heme oxygenase (decycling) 1	heme oxygenase (decycling) 1	HMOX1	P09601	-2.998067808	10	100	negative	0.014711151
+age_included	Timmers_lifespan	IL20	il20	IL20	Q9NYY1	2.922005411	9	90	positive	0.016702419
+age_included	Alzheimer_disease_late_onset_PGS000053	chemokine (c-c motif) ligand 24	chemokine (c-c motif) ligand 24	CCL24	O00175	2.996221201	10	100	positive	0.016468163
+age_included	Timmers_healthspan	gastric intrinsic factor (vitamin b synthesis)	gastric intrinsic factor (vitamin b synthesis)	GIF	P27352	3.072691322	10	100	positive	0.017343146
+age_included	Timmers_healthspan	chemokine (c-c motif) ligand 19	chemokine (c-c motif) ligand 19	CCL19	Q99731	2.907271215	10	100	positive	0.018268129
+age_included	Coronary_atherosclerosis_PGS002048_Age_>_45	cystatin d	cystatin d	CST5	P28325	2.803425713	9	90	positive	0.020621161
+age_included	Timmers_lifespan_Age_<_45	thymic stromal lymphopoietin	thymic stromal lymphopoietin	TSLP	Q969D9	-2.902261893	10	100	negative	0.021000354
+age_included	Parkinson_disease_PGS000903	iduronidase, alpha-l-	iduronidase, alpha-l-	IDUA	P35475	-2.86892145	9	90	negative	0.021770677
+age_included	Timmers_lifespan	thymic stromal lymphopoietin	thymic stromal lymphopoietin	TSLP	Q969D9	-2.770217963	9	90	negative	0.021808245
+age_included	Timmers_longevity	chymotrypsin c (caldecrin)	chymotrypsin c (caldecrin)	CTRC	Q99895	2.866878828	10	100	positive	0.021703768
+age_included	Timmers_longevity	interleukin 17c	interleukin 17c	IL17C	Q9P0M4	-2.746213672	10	100	negative	0.022793684
+age_included	Timmers_lifespan_Age_>_45	interleukin 2 receptor, beta	interleukin 2 receptor, beta	IL2RB	P14784	2.702947507	7	70	positive	0.023186848
+age_included	Coronary_atherosclerosis_PGS002048_Age_>_45	SLAMF1	slamf1	SLAMF1	Q13291	-2.881401511	10	100	negative	0.024248883
+age_included	Coronary_atherosclerosis_PGS002048	TNFRSF10B	tnfrsf10b	TNFRSF10B	O14763	2.70382991	10	100	positive	0.025182054
+age_included	Timmers_longevity	surfactant protein d	surfactant protein d	SFTPD	P35247	2.715343305	8	80	positive	0.02707063
+age_included	Coronary_atherosclerosis_PGS002048	MMP1	mmp1	MMP1	P03956	-2.725005058	8	80	negative	0.028528533
+age_included	Heart_failure_PGS001790	plasminogen activator, urokinase	plasminogen activator, urokinase	PLAU	P00749	2.649642515	7	70	positive	0.02995535
+age_included	amyotrophic_lateral_sclerosis	interleukin 13	interleukin 13	IL13	P35225	2.670822521	9	90	positive	0.030544872
+age_included	Alzheimers_PGS002753	IL-12b	il-12b	IL12B	P29460	2.685785338	7	70	positive	0.031442015
+age_included	Timmers_longevity_Age_>_45	interleukin 17c	interleukin 17c	IL17C	Q9P0M4	-2.566632871	6	60	negative	0.035392956
+age_included	mvAge	collagen, type i, alpha 1	collagen, type i, alpha 1	COL1A1	P02452	2.583938234	6	60	positive	0.037434462
+age_included	Coronary_atherosclerosis_PGS002048	chemokine (c-c motif) ligand 11	chemokine (c-c motif) ligand 11	CCL11	P51671	-2.560362853	6	60	negative	0.040960284
+age_included	Timmers_healthspan	interleukin 13	interleukin 13	IL13	P35225	-2.543437956	6	60	negative	0.041525224
+age_residualized	Alzheimer_disease_late_onset_PGS000053	chemokine (c-c motif) ligand 13	chemokine (c-c motif) ligand 13	CCL13	Q99616	5.053931053	10	100	positive	0.000187698
+age_residualized	Coronary_atherosclerosis_PGS002048	SLAMF1	slamf1	SLAMF1	Q13291	-5.113406883	10	100	negative	0.001143778
+age_residualized	Type_2_diabetes_SNPs_insulin_action_secretion_PGS000851	IL10RA	il10ra	IL10RA	Q13651	4.205526597	10	100	positive	0.001822127
+age_residualized	Type_2_diabetes_SNPs_insulin_action_secretion_PGS000851	fibroblast growth factor 23	fibroblast growth factor 23	FGF23	Q9GZV9	4.252444157	10	100	positive	0.003271901
+age_residualized	Alzheimer_disease_late_onset_PGS000053	chemokine (c-c motif) ligand 24	chemokine (c-c motif) ligand 24	CCL24	O00175	4.034724044	10	100	positive	0.003954623
+age_residualized	Coronary_atherosclerosis_PGS002048	chemokine (c-c motif) ligand 15	chemokine (c-c motif) ligand 15	CCL15	Q16663	-3.789837085	10	100	negative	0.005649014
+age_residualized	Timmers_healthspan	chemokine (c-c motif) ligand 19	chemokine (c-c motif) ligand 19	CCL19	Q99731	3.948955388	10	100	positive	0.005687845
+age_residualized	Alzheimer_disease_late_onset_PGS000053	heme oxygenase (decycling) 1	heme oxygenase (decycling) 1	HMOX1	P09601	-3.823255557	10	100	negative	0.006626433
+age_residualized	Type_2_diabetes_SNPs_insulin_action_secretion_PGS000851	GIF	gif	GIF	P27352	3.782995258	10	100	positive	0.006938772
+age_residualized	Timmers_longevity	interleukin 17c	interleukin 17c	IL17C	Q9P0M4	-3.5517354	10	100	negative	0.007228718
+age_residualized	Cardiovascular_disease_PGS002316	IL2	il2	IL2	P60568	-3.29981448	10	100	negative	0.006490745
+age_residualized	Cardiovascular_disease_PGS002316	n-terminal prohormone brain natriuretic peptide	n-terminal prohormone brain natriuretic peptide	NT-proBNP	NT-proBNP	-3.889547876	10	100	negative	0.007287563
+age_residualized	Alzheimer_disease_late_onset_PGS000053	c-mer proto-oncogene tyrosine kinase	c-mer proto-oncogene tyrosine kinase	MERTK	Q12866	3.321127511	10	100	positive	0.007635791
+age_residualized	T2D_cases_vs_HbA1c_filtered_controls_PGS000712	interleukin 1 receptor-like 2	interleukin 1 receptor-like 2	IL1RL2	Q9HB29	-3.516605671	10	100	negative	0.007926002
+age_residualized	Timmers_longevity	surfactant protein d	surfactant protein d	SFTPD	P35247	3.6746147	10	100	positive	0.008378474
+age_residualized	Parkinson_disease_PGS000903	iduronidase, alpha-l-	iduronidase, alpha-l-	IDUA	P35475	-3.608251256	10	100	negative	0.008453489
+age_residualized	Type_2_diabetes_SNPs_insulin_action_secretion_PGS000851	growth differentiation factor 15	growth differentiation factor 15	GDF15	Q99988	3.567834429	10	100	positive	0.009411309
+age_residualized	Alzheimer_disease_late_onset_PGS000053	chymotrypsin c (caldecrin)	chymotrypsin c (caldecrin)	CTRC	Q99895	-3.800107046	10	100	negative	0.007867471
+age_residualized	Timmers_longevity	axl receptor tyrosine kinase	axl receptor tyrosine kinase	AXL	P30530	-3.490921528	10	100	negative	0.009061818
+age_residualized	Timmers_longevity	IL24	il24	IL24	Q13007	-3.542739031	10	100	negative	0.009749928
+age_residualized	Parkinson_disease_PGS000903	v-set and immunoglobulin domain containing 2	v-set and immunoglobulin domain containing 2	VSIG2	Q96IQ7	3.35938592	10	100	positive	0.011311246
+age_residualized	Timmers_lifespan	thymic stromal lymphopoietin	thymic stromal lymphopoietin	TSLP	Q969D9	-3.242346903	10	100	negative	0.012384541
+age_residualized	Cardiovascular_disease_PGS002316	secretoglobin, family 3a, member 2	secretoglobin, family 3a, member 2	SCGB3A2	Q96PL1	3.329857546	10	100	positive	0.012540787
+age_residualized	Coronary_atherosclerosis_PGS002048	TNFRSF10B	tnfrsf10b	TNFRSF10B	O14763	3.187587924	10	100	positive	0.011338619
+age_residualized	amyotrophic_lateral_sclerosis	interleukin 13	interleukin 13	IL13	P35225	3.579520893	10	100	positive	0.011290729
+age_residualized	Timmers_lifespan	IL10RA	il10ra	IL10RA	Q13651	-3.104695645	10	100	negative	0.011584438
+age_residualized	Coronary_atherosclerosis_PGS002048	chemokine (c-c motif) ligand 11	chemokine (c-c motif) ligand 11	CCL11	P51671	-3.281884609	10	100	negative	0.013341572
+age_residualized	amyotrophic_lateral_sclerosis	interleukin 17c	interleukin 17c	IL17C	Q9P0M4	-3.086317003	10	100	negative	0.013096844
+age_residualized	Type_2_diabetes_SNPs_insulin_action_secretion_PGS000851	cathepsin l	cathepsin l	CTSL	P07711	3.303184025	10	100	positive	0.013763451
+age_residualized	Longevity_PGS000906	kit ligand	kit ligand	KITLG	P21583	-2.937333733	10	100	negative	0.012448799
+age_residualized	mvAge	collagen, type i, alpha 1	collagen, type i, alpha 1	COL1A1	P02452	3.502735394	10	100	positive	0.013728602
+age_residualized	Timmers_healthspan	chymotrypsin c (caldecrin)	chymotrypsin c (caldecrin)	CTRC	Q99895	-3.10409307	10	100	negative	0.012687677
+age_residualized	amyotrophic_lateral_sclerosis	IL5	il5	IL5	P05113	-3.271527883	10	100	negative	0.014170866
+age_residualized	Type_2_diabetes_SNPs_insulin_action_secretion_PGS000851	tumor necrosis factor receptor superfamily, member 9	tumor necrosis factor receptor superfamily, member 9	TNFRSF9	Q07011	-3.324420635	10	100	negative	0.014622968
+age_residualized	T2D_cases_vs_HbA1c_filtered_controls_PGS000712	TNFSF11	tnfsf11	TNFSF11	O14788	3.282037798	10	100	positive	0.015676076
+age_residualized	Timmers_lifespan	SERPINA12	serpina12	SERPINA12	Q8IW75	-3.179282867	10	100	negative	0.016063036
+age_residualized	Type_2_diabetes_SNPs_insulin_action_PGS000850	interleukin 6 receptor	interleukin 6 receptor	IL6R	P08887	3.183713826	10	100	positive	0.015512201
+age_residualized	Timmers_longevity	chymotrypsin c (caldecrin)	chymotrypsin c (caldecrin)	CTRC	Q99895	2.994504405	10	100	positive	0.016185673
+age_residualized	Type_2_diabetes_SNPs_insulin_action_PGS000850	paraoxonase 3	paraoxonase 3	PON3	Q15166	-2.86721283	10	100	negative	0.016495189
+age_residualized	Type_2_diabetes_SNPs_insulin_action_secretion_PGS000851	bone morphogenetic protein 6	bone morphogenetic protein 6	BMP6	P22004	3.035897173	10	100	positive	0.017199014
+age_residualized	Type_2_diabetes_SNPs_insulin_action_PGS000850	iduronidase, alpha-l-	iduronidase, alpha-l-	IDUA	P35475	3.147539576	10	100	positive	0.017424815
+age_residualized	Coronary_atherosclerosis_PGS002048	matrix metallopeptidase 1 (interstitial collagenase)	matrix metallopeptidase 1 (interstitial collagenase)	MMP1	P03956	-2.914667869	10	100	negative	0.018426153
+age_residualized	mvAge	chemokine (c-c motif) ligand 4	chemokine (c-c motif) ligand 4	CCL4	P13236	-3.06282963	10	100	negative	0.019068996
+age_residualized	amyotrophic_lateral_sclerosis	myeloperoxidase	myeloperoxidase	MPO	P05164	2.902877437	10	100	positive	0.018456479
+age_residualized	Type_2_diabetes_SNPs_insulin_action_PGS000850	bikunin precusor	bikunin precusor	AMBP	P02760	-3.000954423	10	100	negative	0.021134718
+age_residualized	Timmers_healthspan	artemin	artemin	ARTN	Q5T4W7	2.793571288	10	100	positive	0.019475092
+age_residualized	Type_2_diabetes_SNPs_insulin_action_secretion_PGS000851	n-terminal prohormone brain natriuretic peptide	n-terminal prohormone brain natriuretic peptide	NT-proBNP	NT-proBNP	-3.009558465	10	100	negative	0.021513614
+age_residualized	Timmers_lifespan	IL20	il20	IL20	Q9NYY1	3.075580518	10	100	positive	0.020391601
+age_residualized	Timmers_longevity	cd163 molecule	cd163 molecule	CD163	Q86VB7	-3.019669661	10	100	negative	0.022112996
+age_residualized	Cardiovascular_disease_PGS002316	interleukin 22 receptor, alpha 1	interleukin 22 receptor, alpha 1	IL22RA1	Q8N6P7	2.852281293	10	100	positive	0.021473487
+age_residualized	Timmers_longevity	timp metallopeptidase inhibitor 4	timp metallopeptidase inhibitor 4	TIMP4	Q99727	2.818398991	10	100	positive	0.025271877
+age_residualized	Coronary_artery_disease_PGS004941	GIF	gif	GIF	P27352	-2.686012957	10	100	negative	0.026980877
+age_residualized	Timmers_healthspan	PRELP	prelp	PRELP	P51888	-2.830294569	10	100	negative	0.02682499
+age_residualized	mvAge	glyoxalase i	glyoxalase i	GLO1	Q04760	2.68759811	10	100	positive	0.028116606
+age_residualized	Timmers_lifespan	collagen, type i, alpha 1	collagen, type i, alpha 1	COL1A1	P02452	2.779208996	10	100	positive	0.027100614
+age_residualized	T2D_cases_vs_HbA1c_filtered_controls_PGS000712	vascular endothelial growth factor a	vascular endothelial growth factor a	VEGFA	P15692	2.71130886	10	100	positive	0.032902617
+age_residualized	Parkinson_disease_PGS000903	surfactant protein d	surfactant protein d	SFTPD	P35247	-3.752193906	9	90	negative	0.002980853
+age_residualized	Parkinson_disease_PGS000903	chemokine (c-c motif) ligand 16	chemokine (c-c motif) ligand 16	CCL16	O15467	3.090741575	9	90	positive	0.012412954
+age_residualized	Alzheimers_PGS002753	tumor necrosis factor	tumor necrosis factor	TNF	P01375	-3.121506089	9	90	negative	0.013951994
+age_residualized	Cardiovascular_disease_PGS002316	agouti related protein homolog (mouse)	agouti related protein homolog (mouse)	AGRP	O00253	3.315156419	9	90	positive	0.014211633
+age_residualized	Alzheimer_disease_late_onset_PGS000053	IL5	il5	IL5	P05113	3.14813474	9	90	positive	0.015468107
+age_residualized	Alzheimer_disease_late_onset_PGS000053	carbonic anhydrase va, mitochondrial	carbonic anhydrase va, mitochondrial	CA5A	P35218	3.134879413	9	90	positive	0.016311477
+age_residualized	Longevity_PGS000906	s100 calcium binding protein a12	s100 calcium binding protein a12	S100A12	P80511	3.036228156	9	90	positive	0.016302548
+age_residualized	Timmers_longevity	fibroblast growth factor 5	fibroblast growth factor 5	FGF5	Q8NF90	2.932836941	9	90	positive	0.017245017
+age_residualized	Type_2_diabetes_SNPs_insulin_action_secretion_PGS000851	IL17A	il17a	IL17A	Q16552	3.031921854	9	90	positive	0.018462781
+age_residualized	Type_2_diabetes_SNPs_insulin_action_PGS000850	SRC	src	SRC	P12931	-3.081210613	9	90	negative	0.018053381
+age_residualized	T2D_cases_vs_HbA1c_filtered_controls_PGS000712	interleukin 33	interleukin 33	IL33	O95760	-3.050014107	9	90	negative	0.018427106
+age_residualized	Timmers_lifespan	IL24	il24	IL24	Q13007	2.973691755	9	90	positive	0.019407444
+age_residualized	Coronary_atherosclerosis_PGS002048	interleukin 10	interleukin 10	IL10	P22301	2.846705046	9	90	positive	0.018395331
+age_residualized	Timmers_longevity	matrix metallopeptidase 12 (macrophage elastase)	matrix metallopeptidase 12 (macrophage elastase)	MMP12	P39900	-2.780777137	9	90	negative	0.019640195
+age_residualized	mvAge	pentraxin 3, long	pentraxin 3, long	PTX3	P26022	-2.923168767	9	90	negative	0.022884389
+age_residualized	amyotrophic_lateral_sclerosis	interferon, gamma	interferon, gamma	IFNG	P01579	-2.784861771	9	90	negative	0.023164009
+age_residualized	Timmers_lifespan	tumor necrosis factor	tumor necrosis factor	TNF	P01375	-2.826265437	9	90	negative	0.023210051
+age_residualized	Parkinson_disease_PGS000903	tumor necrosis factor (ligand) superfamily, member 12	tumor necrosis factor (ligand) superfamily, member 12	TNFSF12	O43508	-2.791351529	9	90	negative	0.025186941
+age_residualized	Coronary_atherosclerosis_PGS002048	interleukin 22 receptor, alpha 1	interleukin 22 receptor, alpha 1	IL22RA1	Q8N6P7	-2.818729032	9	90	negative	0.025331219
+age_residualized	Heart_failure_PGS001790	IL2Rβ	il2rβ	IL2RB	P14784	2.767491394	9	90	positive	0.026434195
+age_residualized	Coronary_vascular_disease_CVD_PGS004514	plasminogen activator, urokinase	plasminogen activator, urokinase	PLAU	P00749	2.796964038	9	90	positive	0.027803708
+age_residualized	Type_2_diabetes_SNPs_insulin_action_secretion_PGS000851	von willebrand factor	von willebrand factor	VWF	P04275	-2.617133908	9	90	negative	0.031856512
+age_residualized	mvAge	chemokine (c-x-c motif) ligand 11	chemokine (c-x-c motif) ligand 11	CXCL11	O14625	-2.68204119	9	90	negative	0.032411835
+age_residualized	Heart_failure_PGS001790	MMP2	mmp2	MMP2	P08253	-2.632393341	9	90	negative	0.035245301
+age_residualized	T2D_cases_vs_HbA1c_filtered_controls_PGS000712	chemokine (c-x-c motif) ligand 9	chemokine (c-x-c motif) ligand 9	CXCL9	Q07325	-3.057754744	8	80	negative	0.012661264
+age_residualized	Alzheimers_PGS002753	bikunin precusor	bikunin precusor	AMBP	P02760	2.842856423	8	80	positive	0.017260385
+age_residualized	Parkinson_disease_PGS000903	leukemia inhibitory factor	leukemia inhibitory factor	LIF	P15018	2.836890427	8	80	positive	0.016493258
+age_residualized	Coronary_vascular_disease_CVD_PGS004514	SERPINA12	serpina12	SERPINA12	Q8IW75	-2.953756595	8	80	negative	0.018531384
+age_residualized	Timmers_lifespan	cub domain containing protein 1	cub domain containing protein 1	CDCP1	Q9H5V8	-2.905259581	8	80	negative	0.019809021
+age_residualized	Coronary_atherosclerosis_PGS002048	BOC	boc	BOC	Q9BWV1	-2.918409835	8	80	negative	0.02153293
+age_residualized	Timmers_lifespan	IL10RB	il10rb	IL10RB	Q08334	-2.7367477	8	80	negative	0.022125236
+age_residualized	Coronary_artery_disease_PGS004941	CD32	cd32	FCGR2B	P31994	-2.866701419	8	80	negative	0.02419499
+age_residualized	T2D_cases_vs_HbA1c_filtered_controls_PGS000712	fms-related tyrosine kinase 3 ligand	fms-related tyrosine kinase 3 ligand	FLT3LG	P49771	2.815319718	8	80	positive	0.026438831
+age_residualized	Timmers_lifespan	IL2Rβ	il2rβ	IL2RB	P14784	2.742803676	8	80	positive	0.025324855
+age_residualized	Type_2_diabetes_SNPs_insulin_action_PGS000850	matrix metallopeptidase 7 (matrilysin, uterine)	matrix metallopeptidase 7 (matrilysin, uterine)	MMP7	P09237	-2.685558919	8	80	negative	0.029478551
+age_residualized	Longevity_PGS000906	transforming growth factor, alpha	transforming growth factor, alpha	TGFA	P01135	-2.735343422	8	80	negative	0.030935537
+age_residualized	Heart_failure_PGS001790	IL4R	il4r	IL4R	P24394	-2.699488037	8	80	negative	0.032434736
+age_residualized	Parkinson_disease_PGS000903	VEGFD	vegfd	FIGF	O43915	2.783450746	8	80	positive	0.033422067
+age_residualized	T2D_cases_vs_HbA1c_filtered_controls_PGS000712	kit ligand	kit ligand	KITLG	P21583	3.039568248	7	70	positive	0.017128831
+age_residualized	Longevity_PGS000906	chemokine (c motif) ligand 1	chemokine (c motif) ligand 1	XCL1	P47992	-3.06574296	7	70	negative	0.017083356
+age_residualized	Timmers_healthspan	IL2Rβ	il2rβ	IL2RB	P14784	-2.835921424	7	70	negative	0.021591442
+age_residualized	Alzheimer_disease_late_onset_PGS000053	artemin	artemin	ARTN	Q5T4W7	-2.828376646	7	70	negative	0.02311001
+age_residualized	Coronary_atherosclerosis_PGS002048	lipoprotein lipase	lipoprotein lipase	LPL	P06858	2.943348075	7	70	positive	0.024407152
+age_residualized	Timmers_lifespan	TNFRSF10C	tnfrsf10c	TNFRSF10C	O14798	-2.724645744	7	70	negative	0.02598471
+age_residualized	Coronary_vascular_disease_CVD_PGS004514	IL27_EBI3	il27_ebi3	IL27,EBI3	Q8NEV9,Q14213	2.808806104	7	70	positive	0.030190639
+age_residualized	amyotrophic_lateral_sclerosis	artemin	artemin	ARTN	Q5T4W7	2.673326184	7	70	positive	0.029237649
+age_residualized	amyotrophic_lateral_sclerosis	glial cell derived neurotrophic factor	glial cell derived neurotrophic factor	GDNF	P39905	2.750177651	7	70	positive	0.033209119
+age_residualized	mvAge	vascular endothelial growth factor a	vascular endothelial growth factor a	VEGFA	P15692	-2.632042445	7	70	negative	0.033908597
+age_residualized	Type_2_diabetes_SNPs_insulin_action_PGS000850	cystatin d	cystatin d	CST5	P28325	-2.616885517	7	70	negative	0.034426649
+age_residualized	Timmers_healthspan	chemokine (c-c motif) ligand 20	chemokine (c-c motif) ligand 20	CCL20	P78556	-2.593710566	7	70	negative	0.034426334
+age_residualized	Alzheimer_disease_late_onset_PGS000053	selectin p ligand	selectin p ligand	SELPLG	Q14242	2.616833207	7	70	positive	0.036850299
+age_residualized	Coronary_artery_disease_PGS004941	chitinase 1 (chitotriosidase)	chitinase 1 (chitotriosidase)	CHIT1	Q13231	-2.873603031	6	60	negative	0.012469554
+age_residualized	Timmers_healthspan	peptidase inhibitor 3, skin-derived	peptidase inhibitor 3, skin-derived	PI3	P19957	2.778851745	6	60	positive	0.019358698
+age_residualized	Timmers_healthspan	interleukin 4	interleukin 4	IL4	P05112	3.009262318	6	60	positive	0.023733557
+age_residualized	amyotrophic_lateral_sclerosis	acid phosphatase 5, tartrate resistant	acid phosphatase 5, tartrate resistant	ACP5	P13686	2.668284953	6	60	positive	0.02967952
+age_residualized	T2D_cases_vs_HbA1c_filtered_controls_PGS000712	chitinase 1 (chitotriosidase)	chitinase 1 (chitotriosidase)	CHIT1	Q13231	2.781165096	6	60	positive	0.028736454
+age_residualized	Coronary_artery_disease_PGS004941	programmed cell death 1 ligand 2	programmed cell death 1 ligand 2	PDCD1LG2	Q9BQ51	-2.7263707	6	60	negative	0.031523545
+age_residualized	Type_2_diabetes_SNPs_insulin_action_secretion_PGS000851	chemokine (c-c motif) ligand 28	chemokine (c-c motif) ligand 28	CCL28	Q9NRJ3	2.58515171	6	60	positive	0.032214887
+age_residualized	Longevity_PGS000906	oncostatin m	oncostatin m	OSM	P13725	-2.705711646	6	60	negative	0.033806141
+age_residualized	Alzheimers_PGS002753	growth hormone 1	growth hormone 1	GH1	P01241	-2.626576961	6	60	negative	0.033321928
+age_residualized	Cardiovascular_disease_PGS002316	slam family member 7	slam family member 7	SLAMF7	Q9NQ25	-2.623144794	6	60	negative	0.0339559
+age_residualized	Cardiovascular_disease_PGS002316	natriuretic peptide b	natriuretic peptide b	NPPB	P16860	-2.711752481	6	60	negative	0.036723405
+age_residualized	amyotrophic_lateral_sclerosis	interleukin 16	interleukin 16	IL16	Q14005	-2.652533223	6	60	negative	0.03669244
+age_residualized	T2D_cases_vs_HbA1c_filtered_controls_PGS000712	cub domain containing protein 1	cub domain containing protein 1	CDCP1	Q9H5V8	-2.629019536	6	60	negative	0.038538116

@@ -1,0 +1,4 @@
+column	omics_feature	omics_dataset	SUB_PATHWAY	SUPER_PATHWAY
+metabolite_1	Example metabolite	metabolomics	Example pathway	Metabolism
+protein_1	Example protein	proteomics		
+chemistry_1	Example chemistry	chemistries		

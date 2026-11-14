@@ -1,0 +1,7 @@
+analysis_name	analysis_label	is_primary	control_set	age_form	age_subset	include_sex	n_pcs
+primary_spline_age_sex_pc8_domain_controls	Primary: spline age + sex + PC1-PC8; domain controls	TRUE	domain	spline	all	TRUE	8
+clean_controls_spline_age_sex_pc8	Sensitivity: spline age + sex + PC1-PC8; clean controls	FALSE	clean	spline	all	TRUE	8
+linear_age_sex_pc8_domain_controls	Sensitivity: linear age + sex + PC1-PC8	FALSE	domain	linear	all	TRUE	8
+age_lt45_linear_age_sex_pc8	Sensitivity: age <45 + sex + PC1-PC8	FALSE	domain	linear	lt45	TRUE	8
+age_ge45_linear_age_sex_pc8	Sensitivity: age >=45 + sex + PC1-PC8	FALSE	domain	linear	ge45	TRUE	8
+spline_age_sex_no_pcs	Sensitivity: spline age + sex; no PCs	FALSE	domain	spline	all	TRUE	0

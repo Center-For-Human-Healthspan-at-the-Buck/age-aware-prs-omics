@@ -1,0 +1,44 @@
+canonical_feature	display_label	legacy_feature	aliases	source_type	source_feature_1	component_1	source_feature_2	component_2	source_feature_3	component_3	derivation	search_terms	target_unit	notes
+alt	ALT	alat (sgpt)	ALAT (SGPT)|alanine aminotransferase|sgpt	direct	alt	ALT					direct	alanine aminotransferase|ALT|SGPT	U/L	
+albumin	Albumin	albumin	albumin	direct	albumin	albumin					direct	albumin	g/dL	
+alkaline_phosphatase	Alkaline phosphatase	alkaline phosphatase	alkaline phosphatase|ALP	direct	alkaline_phosphatase	alkaline_phosphatase					direct	alkaline phosphatase|ALP	U/L	
+ast	AST	asat (sgot)	ASAT (SGOT)|aspartate aminotransferase|sgot	direct	ast	AST					direct	aspartate aminotransferase|AST|SGOT	U/L	
+bmi	BMI	bmi_calc	BMI CALC|body mass index|bmi	direct	bmi	BMI					direct	body mass index|BMI	kg/m2	
+bun_creatinine_ratio	BUN/creatinine ratio	bun/creat ratio	BUN/CREAT RATIO|bun creatinine ratio|urea nitrogen creatinine ratio	derived	urea_nitrogen	urea_nitrogen	creatinine	creatinine			ratio	blood urea nitrogen|urea nitrogen|creatinine	ratio	Requires BUN in mg/dL and creatinine in mg/dL.
+carbon_dioxide	Carbon dioxide	carbon dioxide (co2)	CARBON DIOXIDE (CO2)|CO2|bicarbonate	direct	carbon_dioxide	co2_total					direct	carbon dioxide|CO2|bicarbonate	mmol/L	
+chloride	Chloride	chloride	chloride	direct	chloride	chloride					direct	chloride	mmol/L	
+creatinine	Creatinine	creatinine enz, ser	creatinine enz ser|creatinine	direct	creatinine	creatinine					direct	creatinine	mg/dL	
+hs_crp	hsCRP	crp high sensitivity	CRP HIGH SENSITIVITY|high sensitivity CRP|hsCRP	direct	hs_crp	hs_crp					direct	high sensitivity C-reactive protein|hs-CRP|CRP	mg/L	
+diastolic_bp	Diastolic blood pressure	diastolic bp	diastolic|DIASTOLIC|diastolic blood pressure	direct	diastolic_bp	diastolic_bp					direct	diastolic blood pressure|diastolic	mmHg	
+dpa	DPA	dpa	docosapentaenoic acid|DPA	direct	dpa	dpa_c22_5w3_serum					direct	docosapentaenoic acid|DPA	manual	Specialized lipid measurement; likely unavailable.
+dha	DHA	dha	DHA|docosahexaenoic acid	direct	dha	dha					direct	docosahexaenoic acid|DHA	manual	Specialized lipid measurement; manually curated mapping.
+ferritin	Ferritin	ferritin	ferritin	direct	ferritin	ferritin					direct	ferritin	ng/mL	
+ggt	GGT	ggt	gamma glutamyl transferase|gamma-glutamyl transferase|GGT	direct	ggt	ggt					direct	gamma glutamyl transferase|GGT	U/L	
+glucose	Glucose	glucose	GLUCOSE|serum glucose	direct	glucose	glucose					direct	glucose	mg/dL	
+hba1c	HbA1c	glycohemoglobin a1c	GLYCOHEMOGLOBIN A1C|hemoglobin A1c|HbA1c|glycated hemoglobin	direct	hba1c	hba1c					direct	hemoglobin A1c|glycohemoglobin|HbA1c	percent	Do not combine percent with mmol/mol without an explicit conversion.
+hdl_cholesterol	HDL-C	hdl chol direct	HDL CHOL DIRECT|HDL cholesterol|cholesterol in HDL	direct	hdl_cholesterol	hdl_cholesterol					direct	HDL cholesterol|cholesterol in HDL	mg/dL	
+hdl_particle_number	HDL particle number	hdl particle number	HDL PARTICLE NUMBER	direct	hdl_particle_number	hdl_particle_total_proxy					direct	HDL particle number|high density lipoprotein particle	manual	NMR-style feature; likely unavailable.
+homa_ir	HOMA-IR	homa-ir	HOMA-IR|homeostatic model assessment insulin resistance	derived	glucose	fasting_glucose	homa_ir	insulin			homa_ir	fasting glucose|insulin|HOMA	index	Requires fasting glucose mg/dL and insulin microIU/mL.
+homocysteine	Homocysteine	homocysteine, serum	homocysteine serum|homocysteine	direct	homocysteine	homocysteine					direct	homocysteine	umol/L	
+insulin	Insulin	insulin	INSULIN|fasting insulin	direct	homa_ir	insulin					direct	insulin|fasting insulin	microIU/mL	Can reuse the insulin component curated for HOMA-IR.
+ldl_particle_number	LDL particle number	ldl particle number	LDL PARTICLE NUMBER	direct	ldl_particle_number	ldl_particle_number					direct	LDL particle number|low density lipoprotein particle	manual	NMR-style feature; likely unavailable.
+small_ldl	Small LDL	ldl small	LDL SMALL|small LDL|small LDL particle	direct	small_ldl	small_ldl_particle					direct	small LDL particle|LDL particle	manual	NMR-style feature; likely unavailable.
+ldl_cholesterol_calculated	Calculated LDL-C	ldl-chol calculation	LDL-CHOL CALCULATION|calculated LDL cholesterol|LDL-C	direct	ldl_cholesterol_calculated	ldl_cholesterol_calculated					direct	calculated LDL cholesterol|cholesterol in LDL	mg/dL	
+linoleic_acid	Linoleic acid	linoleic_acid	linoleic acid|linoleate	direct	linoleic_acid	linoleate_serum					direct	linoleic acid|linoleate	manual	Specialized lipid measurement; likely unavailable.
+lpir_score	LPIR score	lpir_score	LPIR SCORE|lipoprotein insulin resistance score	direct	lpir_score	lpir_score					direct	lipoprotein insulin resistance|LPIR	score	Likely unavailable in routine AoU measurements.
+mean_arterial_pressure	Mean arterial pressure	mean_arterial_blood_pressure	MEAN ARTERIAL BLOOD PRESSURE|mean arterial pressure|MAP	derived	systolic_bp	systolic_bp	diastolic_bp	diastolic_bp			mean_arterial_pressure	systolic blood pressure|diastolic blood pressure	mmHg	Derived as (SBP + 2*DBP)/3.
+omega3_total	Omega-3 total	omega_3_total	OMEGA 3 TOTAL|omega-3 total	direct	omega3_total	omega3_total_serum					direct	omega-3 total|omega 3 fatty acid	manual	Specialized lipid measurement; likely unavailable.
+omega3_index	Omega-3 index	omega-3 index	OMEGA-3 INDEX|omega 3 index	direct	omega3_index	omega3_index					direct	omega-3 index|omega 3 index	manual	Omega-3 total is not used as a substitute.
+omega6_total	Omega-6 total	omega_6_total	OMEGA 6 TOTAL|omega-6 total	direct	omega6_total	omega6_total_serum					direct	omega-6 total|omega 6 fatty acid	manual	Specialized lipid measurement; likely unavailable.
+potassium	Potassium	potassium	POTASSIUM	direct	potassium	potassium					direct	potassium	mmol/L	
+sodium	Sodium	sodium	SODIUM	direct	sodium	sodium					direct	sodium	mmol/L	
+pulse_pressure	Pulse pressure	pulse_pressure	PULSE PRESSURE|pulse pressure	derived	systolic_bp	systolic_bp	diastolic_bp	diastolic_bp			pulse_pressure	systolic blood pressure|diastolic blood pressure	mmHg	Derived as SBP - DBP.
+systolic_bp	Systolic blood pressure	systolic	SYSTOLIC|systolic blood pressure	direct	systolic_bp	systolic_bp					direct	systolic blood pressure|systolic	mmHg	
+triglyceride_hdl_ratio	Triglyceride/HDL-C ratio	triglyceride hdl ratio	Triglyceride HDL Ratio|TG HDL ratio	derived	triglycerides	triglycerides	hdl_cholesterol	hdl_cholesterol			ratio	triglycerides|HDL cholesterol	ratio	Requires both components in the same target unit.
+triglycerides	Triglycerides	triglycerides	TRIGLYCERIDES|triglyceride	direct	triglycerides	triglycerides					direct	triglycerides|triglyceride	mg/dL	
+total_cholesterol	Total cholesterol	cholesterol, total	CHOLESTEROL, TOTAL|total cholesterol|cholesterol total	direct	total_cholesterol	total_cholesterol					direct	total cholesterol|cholesterol total	mg/dL	
+urea	Urea	urea	UREA	direct	urea_nitrogen	urea_nitrogen					direct	urea|blood urea nitrogen	mg/dL	Legacy VAE feature corresponds to the BUN component.
+urea_nitrogen	Urea nitrogen (BUN)	urea nitrogen	UREA NITROGEN|blood urea nitrogen|BUN	direct	urea_nitrogen	urea_nitrogen					direct	blood urea nitrogen|urea nitrogen|BUN	mg/dL	
+uric_acid	Uric acid	uric acid	URIC ACID|urate	direct	uric_acid	urate					direct	uric acid|urate	mg/dL	
+vitamin_d_25oh	25-OH vitamin D	vitamin d, 25-oh tot	VITAMIN D 25-OH TOT|25 hydroxy vitamin D|vitamin D	direct	vitamin_d_25oh	25oh_vitamin_d_total					direct	25-hydroxyvitamin D|vitamin D	ng/mL	
+weight	Weight	weight_calc	WEIGHT CALC|body weight|weight	direct	weight	body_weight					direct	body weight|weight	kg	

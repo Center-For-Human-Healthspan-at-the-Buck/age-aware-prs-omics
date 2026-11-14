@@ -1,0 +1,44 @@
+[
+  {
+    "domain": "AD_dementia",
+    "label": "Alzheimer's disease / dementia",
+    "case_regex": "(alzheimer|dementia)",
+    "control_exclude_regex": "(alzheimer|dementia|mild cognitive impairment|cognitive impairment|lewy body|frontotemporal|vascular dementia)",
+    "seed_exclude_regex": "(screening|family history|risk of|education|questionnaire)"
+  },
+  {
+    "domain": "Parkinsons",
+    "label": "Parkinson's disease",
+    "case_regex": "(parkinson|parkinsonism)",
+    "control_exclude_regex": "(parkinson|parkinsonism|lewy body)",
+    "seed_exclude_regex": "(wolff|white|wpw|parkinson-white|screening|family history|risk of)"
+  },
+  {
+    "domain": "ALS_MND",
+    "label": "ALS / motor-neuron disease",
+    "case_regex": "(amyotrophic lateral sclerosis|motor neuron disease|primary lateral sclerosis|progressive muscular atrophy|progressive bulbar palsy)",
+    "control_exclude_regex": "(amyotrophic lateral sclerosis|motor neuron disease|primary lateral sclerosis|progressive muscular atrophy|progressive bulbar palsy)",
+    "seed_exclude_regex": "(screening|family history|risk of)"
+  },
+  {
+    "domain": "CAD_coronary",
+    "label": "Coronary artery disease",
+    "case_regex": "(coronary atherosclerosis|atherosclerosis of coronary|coronary artery disease|coronary arteriosclerosis|myocardial infarction|angina pectoris|ischemic heart disease|ischaemic heart disease|coronary occlusion|coronary artery bypass|coronary stent|coronary revascularization)",
+    "control_exclude_regex": "(coronary atherosclerosis|atherosclerosis of coronary|coronary artery disease|coronary arteriosclerosis|myocardial infarction|angina pectoris|ischemic heart disease|ischaemic heart disease|coronary occlusion|coronary artery bypass|coronary stent|coronary revascularization)",
+    "seed_exclude_regex": "(congenital|anomaly|anomalous|finding|myocardial bridge|screening|family history|risk of)"
+  },
+  {
+    "domain": "Heart_failure",
+    "label": "Heart failure",
+    "case_regex": "(heart failure|congestive heart failure|systolic heart failure|diastolic heart failure|reduced ejection fraction|preserved ejection fraction|left ventricular systolic dysfunction)",
+    "control_exclude_regex": "(heart failure|congestive heart failure|systolic heart failure|diastolic heart failure|reduced ejection fraction|preserved ejection fraction|left ventricular systolic dysfunction|cardiomyopathy)",
+    "seed_exclude_regex": "(screening|family history|risk of)"
+  },
+  {
+    "domain": "T2D",
+    "label": "Type 2 diabetes",
+    "case_regex": "(type 2 diabetes|diabetes mellitus type 2|due to type 2 diabetes|type ii diabetes)",
+    "control_exclude_regex": "(diabetes|prediabetes|impaired glucose|abnormal glucose|hyperglycemia)",
+    "seed_exclude_regex": "(gestational|pregnancy|family history|screening|risk of)"
+  }
+]

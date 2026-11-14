@@ -1,0 +1,653 @@
+feature_a_original_name,omic_original_name,qtl_type
+Parkinson_disease_PGS000903,surfactant protein D,eQTL
+Parkinson_disease_PGS000903,"iduronidase, alpha-L-",both
+Parkinson_disease_PGS000903,ascorbic acid 3-sulfate*,none
+Parkinson_disease_PGS000903,1-stearoyl-2-oleoyl-GPI (18:0/18:1)*,none
+Parkinson_disease_PGS000903,tumor necrosis factor,eQTL
+Parkinson_disease_PGS000903,glycine,none
+Parkinson_disease_PGS000903,pregnanediol-3-glucuronide,none
+Parkinson_disease_PGS000903,2-stearoyl-GPE (18:0)*,none
+Parkinson_disease_PGS000903,2-aminooctanoate,none
+Parkinson_disease_PGS000903,tartronate (hydroxymalonate),none
+Parkinson_disease_PGS000903,"sphingomyelin (d18:2/21:0, d16:2/23:0)*",none
+Parkinson_disease_PGS000903,"tumor necrosis factor (ligand) superfamily, member 12",eQTL
+Parkinson_disease_PGS000903,2-ketocaprylate,none
+Parkinson_disease_PGS000903,5-methyluridine (ribothymidine),none
+Parkinson_disease_PGS000903,5-dodecenoate (12:1n7),none
+Parkinson_disease_PGS000903,gamma-glutamylthreonine,none
+Parkinson_disease_PGS000903,c-fos induced growth factor (vascular endothelial growth factor D),none
+Parkinson_disease_PGS000903,"N6,N6,N6-trimethyllysine",none
+Parkinson_disease_PGS000903,leukemia inhibitory factor,eQTL
+Parkinson_disease_PGS000903,5-dodecenoylcarnitine (C12:1),none
+Parkinson_disease_PGS000903,1-palmitoleoyl-2-linolenoyl-GPC (16:1/18:3)*,none
+Parkinson_disease_PGS000903,interleukin 12B,none
+Parkinson_disease_PGS000903,picolinate,none
+Parkinson_disease_PGS000903,1-(1-enyl-palmitoyl)-2-linoleoyl-GPC (P-16:0/18:2)*,none
+Parkinson_disease_PGS000903,hydantoin-5-propionate,none
+Parkinson_disease_PGS000903,chemokine (C-C motif) ligand 16,eQTL
+Parkinson_disease_PGS000903,2-naphthol sulfate,none
+Parkinson_disease_PGS000903,taurocholenate sulfate*,none
+Parkinson_disease_PGS000903,6-oxopiperidine-2-carboxylate,none
+Parkinson_disease_PGS000903,V-set and immunoglobulin domain containing 2,eQTL
+Parkinson_disease_PGS000903,4-hydroxyphenylpyruvate,none
+Parkinson_disease_PGS000903,HDL PARTICLE NUMBER,none
+Parkinson_disease_PGS000903,"iduronidase, alpha-L-",both
+Parkinson_disease_PGS000903_Age_<_45,DHA,none
+Parkinson_disease_PGS000903,picolinate,none
+Parkinson_disease_PGS000903_Age_<_45,POTASSIUM,none
+Parkinson_disease_PGS000903,4-hydroxyphenylpyruvate,none
+Parkinson_disease_PGS000903_Age_<_45,LDL PARTICLE NUMBER,none
+Parkinson_disease_PGS000903,diastolic,none
+Parkinson_disease_PGS000903_Age_>_45,ALKALINE PHOSPHATASE,none
+Parkinson_disease_PGS000903,ALKALINE PHOSPHATASE,none
+Parkinson_disease_PGS000903,CARBON DIOXIDE (CO2),none
+Alzheimer_disease_late_onset_PGS000053,heme oxygenase (decycling) 1,eQTL
+Alzheimer_disease_late_onset_PGS000053,"3-bromo-5-chloro-2,6-dihydroxybenzoic acid*",none
+Alzheimer_disease_late_onset_PGS000053,chymotrypsin C (caldecrin),eQTL
+Alzheimer_disease_late_onset_PGS000053,metabolonic lactone sulfate,none
+Alzheimer_disease_late_onset_PGS000053,5-hydroxylysine,none
+Alzheimer_disease_late_onset_PGS000053,"5alpha-pregnan-3beta,20alpha-diol monosulfate (2)",none
+Alzheimers_PGS002753,isoursodeoxycholate,none
+Alzheimer_disease_late_onset_PGS000053,methyl-4-hydroxybenzoate sulfate,none
+Alzheimer_disease_late_onset_PGS000053,tiglylcarnitine (C5:1-DC),none
+Alzheimer_disease_late_onset_PGS000053,"3,5-dichloro-2,6-dihydroxybenzoic acid",none
+Alzheimer_disease_late_onset_PGS000053,4-hydroxychlorothalonil,none
+Alzheimers_PGS002753,tumor necrosis factor,eQTL
+Alzheimers_PGS002753,cystine,none
+Alzheimer_disease_late_onset_PGS000053,ectoine,none
+Alzheimer_disease_late_onset_PGS000053,hydroxy-CMPF*,none
+Alzheimer_disease_late_onset_PGS000053,pregnanediol-3-glucuronide,none
+Alzheimer_disease_late_onset_PGS000053,artemin,none
+Alzheimers_PGS002753,interleukin 10,none
+Alzheimer_disease_late_onset_PGS000053,GGT,none
+Alzheimer_disease_late_onset_PGS000053,perfluorooctanesulfonate (PFOS),none
+Alzheimer_disease_late_onset_PGS000053,"5alpha-pregnan-3beta,20beta-diol monosulfate (1)",none
+Alzheimer_disease_late_onset_PGS000053,"protease, serine, 8",none
+Alzheimer_disease_late_onset_PGS000053,2-oleoyl-GPE (18:1)*,none
+Alzheimers_PGS002753,FERRITIN,none
+Alzheimer_disease_late_onset_PGS000053,"5alpha-pregnan-3beta,20alpha-diol disulfate",none
+Alzheimer_disease_late_onset_PGS000053,quinolinate,none
+Alzheimers_PGS002753,growth hormone 1,none
+Alzheimers_PGS002753,SLAM family member 7,none
+Alzheimer_disease_late_onset_PGS000053,gamma-glutamylisoleucine*,none
+Alzheimers_PGS002753,1-(1-enyl-stearoyl)-2-oleoyl-GPE (P-18:0/18:1),none
+Alzheimer_disease_late_onset_PGS000053,selectin P ligand,eQTL
+Alzheimers_PGS002753,docosahexaenoylcholine,none
+Alzheimers_PGS002753,dimethylarginine (SDMA + ADMA),none
+Alzheimer_disease_late_onset_PGS000053,sphingomyelin (d18:2/24:2)*,none
+Alzheimer_disease_late_onset_PGS000053,"sphingomyelin (d18:1/20:2, d18:2/20:1, d16:1/22:2)*",none
+Alzheimers_PGS002753,1-palmitoyl-2-oleoyl-GPE (16:0/18:1),none
+Alzheimer_disease_late_onset_PGS000053,CALCIUM,none
+Alzheimers_PGS002753,salicylate,none
+Alzheimer_disease_late_onset_PGS000053,orotate,none
+Alzheimer_disease_late_onset_PGS000053,uracil,none
+Alzheimer_disease_late_onset_PGS000053,chemokine (C-C motif) ligand 2,none
+Alzheimer_disease_late_onset_PGS000053,surfactant protein D,none
+Alzheimers_PGS002753,3-amino-2-piperidone,none
+Alzheimers_PGS002753,5-hydroxylysine,none
+Alzheimers_PGS002753,oleoylcholine,none
+Alzheimers_PGS002753,1-oleoyl-2-linoleoyl-GPE (18:1/18:2)*,none
+Alzheimers_PGS002753,pregnenediol disulfate (C21H34O8S2)*,none
+Alzheimers_PGS002753,alpha-1-microglobulin/bikunin precursor,eQTL
+Alzheimer_disease_late_onset_PGS000053,fumarate,none
+Alzheimers_PGS002753,glutamine conjugate of C6H10O2 (2)*,none
+Alzheimers_PGS002753,pregnenetriol disulfate*,none
+Alzheimers_PGS002753,"androstenediol (3beta,17beta) monosulfate (2)",none
+Alzheimers_PGS002753,linoleoylcholine*,none
+Alzheimer_disease_late_onset_PGS000053,malate,none
+Alzheimer_disease_late_onset_PGS000053,stachydrine,none
+Alzheimers_PGS002753,1-stearoyl-2-oleoyl-GPE (18:0/18:1),none
+Alzheimer_disease_late_onset_PGS000053,histidine,none
+Alzheimer_disease_late_onset_PGS000053,"carbonic anhydrase VA, mitochondrial",none
+Alzheimer_disease_late_onset_PGS000053,"interleukin 5 (colony-stimulating factor, eosinophil)",none
+Alzheimers_PGS002753,OMEGA_6_TOTAL,none
+Alzheimer_disease_late_onset_PGS000053,"sphingomyelin (d18:1/18:1, d18:2/18:0)",none
+Alzheimers_PGS002753,9-hydroxystearate,none
+Alzheimer_disease_late_onset_PGS000053,11beta-hydroxyandrosterone glucuronide,none
+Alzheimer_disease_late_onset_PGS000053,c-mer proto-oncogene tyrosine kinase,eQTL
+Alzheimers_PGS002753,interleukin 12B,none
+Alzheimer_disease_late_onset_PGS000053,chemokine (C-C motif) ligand 24,none
+Alzheimer_disease_late_onset_PGS000053,p-cresol glucuronide*,none
+Alzheimer_disease_late_onset_PGS000053,3-aminoisobutyrate,none
+Alzheimer_disease_late_onset_PGS000053,chemokine (C-C motif) ligand 13,none
+Alzheimer_disease_late_onset_PGS000053,diastolic,none
+Alzheimer_disease_late_onset_PGS000053_Age_>_45,diastolic,none
+Alzheimers_PGS002753_Age_>_45,OMEGA_3_TOTAL,none
+Alzheimer_disease_late_onset_PGS000053,HDL PARTICLE NUMBER,none
+Alzheimer_disease_late_onset_PGS000053,4-hydroxychlorothalonil,none
+Alzheimers_PGS002753_Age_>_45,MEAN_ARTERIAL_BLOOD_PRESSURE,none
+Alzheimer_disease_late_onset_PGS000053,"HOMOCYSTEINE, SERUM",none
+Alzheimer_disease_late_onset_PGS000053,2-hydroxyhippurate (salicylurate),none
+Alzheimer_disease_late_onset_PGS000053,heme oxygenase (decycling) 1,eQTL
+Alzheimer_disease_late_onset_PGS000053,"3-bromo-5-chloro-2,6-dihydroxybenzoic acid*",none
+Alzheimer_disease_late_onset_PGS000053,systolic,none
+Alzheimer_disease_late_onset_PGS000053,metabolonic lactone sulfate,none
+Alzheimer_disease_late_onset_PGS000053,"5alpha-pregnan-3beta,20beta-diol monosulfate (1)",none
+Alzheimers_PGS002753,MEAN_ARTERIAL_BLOOD_PRESSURE,none
+Alzheimers_PGS002753,HDL CHOL DIRECT,none
+Alzheimer_disease_late_onset_PGS000053,chymotrypsin C (caldecrin),eQTL
+Alzheimers_PGS002753,isoursodeoxycholate,none
+Alzheimers_PGS002753_Age_>_45,LINOLEIC_ACID,none
+Alzheimer_disease_late_onset_PGS000053,pentadecanoate (15:0),none
+Alzheimer_disease_late_onset_PGS000053_Age_<_45,"HOMOCYSTEINE, SERUM",none
+Alzheimer_disease_late_onset_PGS000053_Age_<_45,fibroblast growth factor 19,none
+Alzheimer_disease_late_onset_PGS000053,"carbonic anhydrase VA, mitochondrial",none
+Alzheimers_PGS002753,interleukin 12B,none
+Alzheimer_disease_late_onset_PGS000053_Age_<_45,"VITAMIN D, 25-OH TOT",none
+Alzheimers_PGS002753_Age_>_45,LDL-CHOL CALCULATION,none
+Alzheimer_disease_late_onset_PGS000053,N-methylproline,none
+Alzheimer_disease_late_onset_PGS000053_Age_>_45,ASAT (SGOT),none
+Alzheimers_PGS002753,3-methyl catechol sulfate (1),none
+Alzheimer_disease_late_onset_PGS000053,3-aminoisobutyrate,none
+Alzheimer_disease_late_onset_PGS000053_Age_>_45,"VITAMIN D, 25-OH TOT",none
+Alzheimer_disease_late_onset_PGS000053,chemokine (C-C motif) ligand 24,none
+Alzheimer_disease_late_onset_PGS000053,chemokine (C-C motif) ligand 13,none
+Alzheimers_PGS002753_Age_>_45,OMEGA_6_TOTAL,none
+Alzheimers_PGS002753,OMEGA_6_TOTAL,none
+Alzheimers_PGS002753,LDL-CHOL CALCULATION,none
+Alzheimer_disease_late_onset_PGS000053,ASAT (SGOT),none
+Alzheimer_disease_late_onset_PGS000053_Age_>_45,GLUCOSE,none
+Alzheimer_disease_late_onset_PGS000053,OMEGA_6_TOTAL,none
+Alzheimer_disease_late_onset_PGS000053,"VITAMIN D, 25-OH TOT",none
+amyotrophic_lateral_sclerosis,"interleukin 5 (colony-stimulating factor, eosinophil)",both
+amyotrophic_lateral_sclerosis,4-ethylphenylsulfate,none
+amyotrophic_lateral_sclerosis,interleukin 17C,both
+amyotrophic_lateral_sclerosis,carotene diol (2),none
+amyotrophic_lateral_sclerosis,erythritol,none
+amyotrophic_lateral_sclerosis,glycochenodeoxycholate,none
+amyotrophic_lateral_sclerosis,"interferon, gamma",both
+amyotrophic_lateral_sclerosis,"interleukin 22 receptor, alpha 1",both
+amyotrophic_lateral_sclerosis,carotene diol (1),none
+amyotrophic_lateral_sclerosis,interleukin 16,both
+amyotrophic_lateral_sclerosis,methyl glucopyranoside (alpha + beta),none
+amyotrophic_lateral_sclerosis,ximenoylcarnitine (C26:1)*,none
+amyotrophic_lateral_sclerosis,1-(1-enyl-stearoyl)-2-docosapentaenoyl-GPE (P-18:0/22:5n3)*,none
+amyotrophic_lateral_sclerosis,"acid phosphatase 5, tartrate resistant",both
+amyotrophic_lateral_sclerosis,artemin,both
+amyotrophic_lateral_sclerosis,glial cell derived neurotrophic factor,both
+amyotrophic_lateral_sclerosis,1-(1-enyl-stearoyl)-2-arachidonoyl-GPC (P-18:0/20:4),none
+amyotrophic_lateral_sclerosis,epithelial cell adhesion molecule,none
+amyotrophic_lateral_sclerosis,myeloperoxidase,both
+amyotrophic_lateral_sclerosis,1-(1-enyl-stearoyl)-2-arachidonoyl-GPE (P-18:0/20:4)*,none
+amyotrophic_lateral_sclerosis,trimethylamine N-oxide,none
+amyotrophic_lateral_sclerosis,3-(4-hydroxyphenyl)lactate,none
+amyotrophic_lateral_sclerosis,interleukin 13,both
+amyotrophic_lateral_sclerosis,OMEGA_6_TOTAL,none
+amyotrophic_lateral_sclerosis,FERRITIN,none
+amyotrophic_lateral_sclerosis,ALKALINE PHOSPHATASE,none
+amyotrophic_lateral_sclerosis,BMI_CALC,none
+amyotrophic_lateral_sclerosis,"interleukin 5 (colony-stimulating factor, eosinophil)",both
+amyotrophic_lateral_sclerosis,glycochenodeoxycholate 3-sulfate,none
+amyotrophic_lateral_sclerosis_Age_>_45,ALKALINE PHOSPHATASE,none
+amyotrophic_lateral_sclerosis_Age_>_45,BUN/CREAT RATIO,none
+amyotrophic_lateral_sclerosis,erythritol,none
+amyotrophic_lateral_sclerosis,ALAT (SGPT),none
+amyotrophic_lateral_sclerosis_Age_>_45,BMI_CALC,none
+amyotrophic_lateral_sclerosis,4-ethylphenylsulfate,none
+amyotrophic_lateral_sclerosis,myeloperoxidase,both
+amyotrophic_lateral_sclerosis,3-(4-hydroxyphenyl)lactate,none
+amyotrophic_lateral_sclerosis,trimethylamine N-oxide,none
+amyotrophic_lateral_sclerosis_Age_>_45,FERRITIN,none
+amyotrophic_lateral_sclerosis,interleukin 13,both
+amyotrophic_lateral_sclerosis,pantothenate,none
+amyotrophic_lateral_sclerosis,CRP HIGH SENSITIVITY,none
+amyotrophic_lateral_sclerosis,FERRITIN,none
+Coronary_atherosclerosis_PGS002048,signaling lymphocytic activation molecule family member 1,both
+Coronary_atherosclerosis_PGS002048,maleate,none
+Coronary_atherosclerosis_PGS002048,stachydrine,none
+Cardiovascular_disease_PGS002316,N-terminal prohormone brain natriuretic peptide,none
+Coronary_atherosclerosis_PGS002048,chemokine (C-C motif) ligand 15,both
+Cardiovascular_disease_PGS002316,phenylalanyltryptophan,none
+Coronary_artery_disease_PGS004941,N-acetylmethionine,none
+Cardiovascular_disease_PGS002316,interleukin 2,both
+Heart_failure_PGS001790,N-acetylcarnosine,none
+Coronary_atherosclerosis_PGS002048,chemokine (C-C motif) ligand 11,both
+Heart_failure_PGS001790,FERRITIN,none
+Coronary_artery_disease_PGS004941,Triglyceride HDL Ratio,none
+Cardiovascular_disease_PGS002316,deoxycholic acid glucuronide,none
+Coronary_atherosclerosis_PGS002048,GLYCOHEMOGLOBIN A1C,none
+Coronary_artery_disease_PGS004941,glycine,none
+Coronary_atherosclerosis_PGS002048,N-methylproline,none
+Heart_failure_PGS001790,cortolone glucuronide (1),none
+Coronary_artery_disease_PGS004941,1-myristoyl-2-arachidonoyl-GPC (14:0/20:4)*,none
+Coronary_atherosclerosis_PGS002048,"BOC cell adhesion associated, oncogene regulated",both
+Coronary_atherosclerosis_PGS002048,matrix metallopeptidase 1 (interstitial collagenase),both
+Cardiovascular_disease_PGS002316,maleate,none
+Coronary_artery_disease_PGS004941,gamma-glutamylglycine,none
+Coronary_artery_disease_PGS004941,chitinase 1 (chitotriosidase),both
+Coronary_artery_disease_PGS004941,"Fc fragment of IgG, low affinity IIb, receptor (CD32)",both
+Coronary_atherosclerosis_PGS002048,octadecadienedioate (C18:2-DC)*,none
+Coronary_artery_disease_PGS004941,N-acetylcarnosine,none
+Cardiovascular_disease_PGS002316,3-methoxytyrosine,none
+Coronary_atherosclerosis_PGS002048,"interleukin 22 receptor, alpha 1",both
+Heart_failure_PGS001790,bone morphogenetic protein 6,none
+Coronary_artery_disease_PGS004941,4-ethylphenylsulfate,none
+Coronary_atherosclerosis_PGS002048,deoxycholic acid glucuronide,none
+Coronary_artery_disease_PGS004941,N-acetylglutamate,none
+Coronary_atherosclerosis_PGS002048,glycocholate,none
+Cardiovascular_disease_PGS002316,methylsuccinate,none
+Heart_failure_PGS001790,7-methylxanthine,none
+Coronary_artery_disease_PGS004941,palmitoyl-linoleoyl-glycerol (16:0/18:2) [2]*,none
+Coronary_artery_disease_PGS004941,programmed cell death 1 ligand 2,both
+Cardiovascular_disease_PGS002316,natriuretic peptide B,both
+Heart_failure_PGS001790,interleukin 4 receptor,eQTL
+Coronary_artery_disease_PGS004941,"interleukin 1, alpha",none
+Coronary_artery_disease_PGS004941,gastric intrinsic factor (vitamin B synthesis),none
+Coronary_atherosclerosis_PGS002048,arachidonoylcarnitine (C20:4),none
+Heart_failure_PGS001790,"matrix metallopeptidase 2 (gelatinase A, 72kDa gelatinase, 72kDa type IV collagenase)",both
+Coronary_artery_disease_PGS004941,pregnenetriol disulfate*,none
+Cardiovascular_disease_PGS002316,SLAM family member 7,both
+Heart_failure_PGS001790,cholesterol,none
+Coronary_atherosclerosis_PGS002048,GLUCOSE,none
+Coronary_atherosclerosis_PGS002048,1-palmitoleoyl-2-linolenoyl-GPC (16:1/18:3)*,none
+Coronary_artery_disease_PGS004941,cyclo(pro-val),none
+Coronary_atherosclerosis_PGS002048,GGT,none
+Coronary_artery_disease_PGS004941,2-hydroxyoctanoate,none
+Coronary_atherosclerosis_PGS002048,cystatin D,none
+Coronary_atherosclerosis_PGS002048,OMEGA_3_TOTAL,none
+Coronary_atherosclerosis_PGS002048,"ceramide (d18:1/17:0, d17:1/18:0)*",none
+Coronary_artery_disease_PGS004941,pyridoxal,none
+Coronary_atherosclerosis_PGS002048,2-stearoyl-GPE (18:0)*,none
+Heart_failure_PGS001790,dodecanedioate (C12-DC),none
+Heart_failure_PGS001790,"interleukin 2 receptor, beta",both
+Coronary_atherosclerosis_PGS002048,gamma-glutamylleucine,none
+Coronary_atherosclerosis_PGS002048,16-hydroxypalmitate,none
+Coronary_artery_disease_PGS004941,1-eicosapentaenoyl-GPE (20:5)*,none
+Coronary_atherosclerosis_PGS002048,interleukin 10,eQTL
+Cardiovascular_disease_PGS002316,"interleukin 22 receptor, alpha 1",both
+Coronary_atherosclerosis_PGS002048,1-arachidonoyl-GPI (20:4)*,none
+Heart_failure_PGS001790,"secretoglobin, family 3A, member 2",none
+Heart_failure_PGS001790,cholate,none
+Coronary_atherosclerosis_PGS002048,lipoprotein lipase,eQTL
+Heart_failure_PGS001790,carboxyethyl-GABA,none
+Coronary_artery_disease_PGS004941,pregnanediol-3-glucuronide,none
+Heart_failure_PGS001790,GLYCOHEMOGLOBIN A1C,none
+Heart_failure_PGS001790,hexadecenedioate (C16:1-DC)*,none
+Heart_failure_PGS001790,CARBON DIOXIDE (CO2),none
+Heart_failure_PGS001790,N-acetylglycine,none
+Coronary_atherosclerosis_PGS002048,"CREATININE ENZ, SER",none
+Heart_failure_PGS001790,"5alpha-pregnan-3beta,20alpha-diol monosulfate (2)",none
+Coronary_artery_disease_PGS004941,picolinate,none
+Coronary_atherosclerosis_PGS002048,N-acetyltaurine,none
+Coronary_atherosclerosis_PGS002048,"tumor necrosis factor receptor superfamily, member 10b",eQTL
+Heart_failure_PGS001790,hexadecanedioate (C16-DC),none
+Coronary_artery_disease_PGS004941,salicylate,none
+Coronary_atherosclerosis_PGS002048,phosphate,none
+Heart_failure_PGS001790,tetradecadienedioate (C14:2-DC)*,none
+Cardiovascular_disease_PGS002316,agouti related protein homolog (mouse),both
+Cardiovascular_disease_PGS002316,"secretoglobin, family 3A, member 2",eQTL
+Coronary_atherosclerosis_PGS002048,"1,5-anhydroglucitol (1,5-AG)",none
+Coronary_artery_disease_PGS004941,2-hydroxydecanoate,none
+Coronary_artery_disease_PGS004941,cholate,none
+Heart_failure_PGS001790,tetradecanedioate (C14-DC),none
+Coronary_atherosclerosis_PGS002048,glycerophosphorylcholine (GPC),none
+Coronary_artery_disease_PGS004941,2-hydroxyhippurate (salicylurate),none
+Coronary_artery_disease_PGS004941,pyridoxate,none
+Coronary_atherosclerosis_PGS002048_Age_>_45,maleate,none
+Coronary_atherosclerosis_PGS002048,signaling lymphocytic activation molecule family member 1,both
+Coronary_atherosclerosis_PGS002048,maleate,none
+Coronary_atherosclerosis_PGS002048,chemokine (C-C motif) ligand 15,both
+Coronary_atherosclerosis_PGS002048,BMI_CALC,none
+Coronary_atherosclerosis_PGS002048,CHLORIDE,none
+Coronary_artery_disease_PGS004941,N-acetylglutamate,none
+Coronary_atherosclerosis_PGS002048_Age_>_45,signaling lymphocytic activation molecule family member 1,none
+Heart_failure_PGS001790_Age_<_45,OMEGA_3_TOTAL,none
+Coronary_artery_disease_PGS004941,N-acetylmethionine,none
+Coronary_atherosclerosis_PGS002048_Age_>_45,diastolic,none
+Coronary_artery_disease_PGS004941,orotidine,none
+Coronary_atherosclerosis_PGS002048,matrix metallopeptidase 1 (interstitial collagenase),both
+Coronary_artery_disease_PGS004941,4-ethylphenylsulfate,none
+Coronary_artery_disease_PGS004941,gastric intrinsic factor (vitamin B synthesis),none
+Coronary_artery_disease_PGS004941,glycine,none
+Coronary_artery_disease_PGS004941_Age_<_45,GGT,none
+Coronary_atherosclerosis_PGS002048,diastolic,none
+Coronary_artery_disease_PGS004941,gamma-glutamylglycine,none
+Coronary_atherosclerosis_PGS002048,chemokine (C-C motif) ligand 11,both
+Coronary_atherosclerosis_PGS002048,"BOC cell adhesion associated, oncogene regulated",both
+Heart_failure_PGS001790,gastric intrinsic factor (vitamin B synthesis),none
+Heart_failure_PGS001790,"plasminogen activator, urokinase",both
+Coronary_artery_disease_PGS004941,GLUCOSE,none
+Coronary_atherosclerosis_PGS002048_Age_>_45,PULSE_PRESSURE,none
+Coronary_artery_disease_PGS004941,2-hydroxyhippurate (salicylurate),none
+Coronary_atherosclerosis_PGS002048,"tumor necrosis factor receptor superfamily, member 10b",eQTL
+Coronary_atherosclerosis_PGS002048_Age_>_45,glycerophosphorylcholine (GPC),none
+Coronary_artery_disease_PGS004941,2-hydroxydecanoate,none
+Coronary_atherosclerosis_PGS002048_Age_>_45,cystatin D,none
+Coronary_artery_disease_PGS004941_Age_<_45,"HOMOCYSTEINE, SERUM",none
+Coronary_atherosclerosis_PGS002048,UREA NITROGEN,none
+Coronary_atherosclerosis_PGS002048,glycerophosphorylcholine (GPC),none
+Coronary_atherosclerosis_PGS002048,PULSE_PRESSURE,none
+Coronary_atherosclerosis_PGS002048,2-hydroxyhippurate (salicylurate),none
+Coronary_artery_disease_PGS004941,"VITAMIN D, 25-OH TOT",none
+Coronary_atherosclerosis_PGS002048_Age_>_45,FERRITIN,none
+Coronary_atherosclerosis_PGS002048,FERRITIN,none
+Type_2_diabetes_SNPs_insulin_action_PGS000850,N-acetylmethionine,none
+Type_2_diabetes_T2D_PGS004923,N-acetylmethionine,none
+Type_2_diabetes_SNPs_insulin_action_secretion_PGS000851,"HOMOCYSTEINE, SERUM",none
+Type_2_diabetes_SNPs_insulin_action_secretion_PGS000851,pregnenetriol disulfate*,none
+T2D_cases_vs_HbA1c_filtered_controls_PGS000712,FERRITIN,none
+T2D_cases_vs_HbA1c_filtered_controls_PGS000712,interleukin 1 receptor-like 2,both
+Type_2_diabetes_SNPs_insulin_action_PGS000850,cis-4-decenoylcarnitine (C10:1),none
+Type_2_diabetes_SNPs_insulin_action_secretion_PGS000851,"tumor necrosis factor receptor superfamily, member 9",none
+Type_2_diabetes_SNPs_insulin_action_secretion_PGS000851,glycochenodeoxycholate 3-sulfate,none
+T2D_cases_vs_HbA1c_filtered_controls_PGS000712,imidazole propionate,none
+T2D_cases_vs_HbA1c_filtered_controls_PGS000712,N-acetylmethionine,none
+Type_2_diabetes_SNPs_insulin_action_PGS000850,"12,13-DiHOME",none
+Type_2_diabetes_SNPs_insulin_action_PGS000850,N-acetylglycine,none
+Type_2_diabetes_SNPs_insulin_action_PGS000850,1-linoleoyl-2-linolenoyl-GPC (18:2/18:3)*,none
+Type_2_diabetes_SNPs_insulin_action_PGS000850,v-src avian sarcoma (Schmidt-Ruppin A-2) viral oncogene homolog,none
+T2D_cases_vs_HbA1c_filtered_controls_PGS000712,docosahexaenoylcholine,none
+T2D_cases_vs_HbA1c_filtered_controls_PGS000712,chemokine (C-X-C motif) ligand 9,eQTL
+T2D_cases_vs_HbA1c_filtered_controls_PGS000712,interleukin 33,eQTL
+Type_2_diabetes_SNPs_insulin_action_secretion_PGS000851,N-terminal prohormone brain natriuretic peptide,none
+Type_2_diabetes_SNPs_insulin_action_PGS000850,alpha-1-microglobulin/bikunin precursor,none
+Type_2_diabetes_SNPs_insulin_action_secretion_PGS000851,3-hydroxybutyrate (BHBA),none
+Type_2_diabetes_SNPs_insulin_action_PGS000850,N-acetylglutamine,none
+Type_2_diabetes_SNPs_insulin_action_PGS000850,2-hydroxydecanoate,none
+T2D_cases_vs_HbA1c_filtered_controls_PGS000712,cholate,none
+T2D_cases_vs_HbA1c_filtered_controls_PGS000712,leukemia inhibitory factor,none
+Type_2_diabetes_SNPs_insulin_action_PGS000850,paraoxonase 3,none
+Type_2_diabetes_SNPs_insulin_action_PGS000850,S-methylcysteine,none
+Type_2_diabetes_SNPs_insulin_action_secretion_PGS000851,3-methylglutarylcarnitine (2),none
+Type_2_diabetes_SNPs_insulin_action_PGS000850,3-methyl-2-oxobutyrate,none
+Type_2_diabetes_SNPs_insulin_action_PGS000850,linolenoylcarnitine (C18:3)*,none
+Type_2_diabetes_SNPs_insulin_action_PGS000850,3-phenylpropionate (hydrocinnamate),none
+Type_2_diabetes_SNPs_insulin_action_secretion_PGS000851,glycosyl-N-palmitoyl-sphingosine (d18:1/16:0),none
+Type_2_diabetes_SNPs_insulin_action_PGS000850,taurodeoxycholate,none
+T2D_cases_vs_HbA1c_filtered_controls_PGS000712,chitinase 3-like 1 (cartilage glycoprotein-39),none
+Type_2_diabetes_T2D_PGS004923,4-ethylphenylsulfate,none
+Type_2_diabetes_SNPs_insulin_action_PGS000850,"matrix metallopeptidase 7 (matrilysin, uterine)",none
+T2D_cases_vs_HbA1c_filtered_controls_PGS000712,1-carboxyethylvaline,none
+Type_2_diabetes_SNPs_insulin_action_PGS000850,LDL SMALL,none
+Type_2_diabetes_SNPs_insulin_action_PGS000850,octadecadienedioate (C18:2-DC)*,none
+Type_2_diabetes_SNPs_insulin_action_PGS000850,5-methyluridine (ribothymidine),none
+Type_2_diabetes_SNPs_insulin_action_secretion_PGS000851,pro-hydroxy-pro,none
+Type_2_diabetes_SNPs_insulin_action_PGS000850,1-linolenoyl-GPC (18:3)*,none
+T2D_cases_vs_HbA1c_filtered_controls_PGS000712,CUB domain containing protein 1,both
+Type_2_diabetes_SNPs_insulin_action_secretion_PGS000851,von Willebrand factor,none
+Type_2_diabetes_SNPs_insulin_action_PGS000850,cystatin D,none
+Type_2_diabetes_SNPs_insulin_action_secretion_PGS000851,"glycosyl ceramide (d18:2/24:1, d18:1/24:2)*",none
+Type_2_diabetes_SNPs_insulin_action_PGS000850,4-methyl-2-oxopentanoate,none
+Type_2_diabetes_SNPs_insulin_action_secretion_PGS000851,choline,none
+Type_2_diabetes_SNPs_insulin_action_secretion_PGS000851,chemokine (C-C motif) ligand 28,none
+Type_2_diabetes_SNPs_insulin_action_secretion_PGS000851,5-methylthioadenosine (MTA),none
+T2D_cases_vs_HbA1c_filtered_controls_PGS000712,thrombopoietin,none
+Type_2_diabetes_SNPs_insulin_action_PGS000850,tridecenedioate (C13:1-DC)*,none
+T2D_cases_vs_HbA1c_filtered_controls_PGS000712,interleukin 2,none
+T2D_cases_vs_HbA1c_filtered_controls_PGS000712,"TEK tyrosine kinase, endothelial",none
+Type_2_diabetes_SNPs_insulin_action_secretion_PGS000851,V-set and immunoglobulin domain containing 2,none
+T2D_cases_vs_HbA1c_filtered_controls_PGS000712,ornithine,none
+T2D_cases_vs_HbA1c_filtered_controls_PGS000712,taurocholenate sulfate*,none
+T2D_cases_vs_HbA1c_filtered_controls_PGS000712,behenoyl sphingomyelin (d18:1/22:0)*,none
+Type_2_diabetes_SNPs_insulin_action_PGS000850,2-aminophenol sulfate,none
+Type_2_diabetes_SNPs_insulin_action_secretion_PGS000851,PULSE_PRESSURE,none
+Type_2_diabetes_SNPs_insulin_action_secretion_PGS000851,1-docosapentaenoyl-GPC (22:5n6)*,none
+T2D_cases_vs_HbA1c_filtered_controls_PGS000712,vascular endothelial growth factor A,both
+Type_2_diabetes_SNPs_insulin_action_secretion_PGS000851,cystine,none
+Type_2_diabetes_T2D_PGS004923,2-piperidinone,none
+T2D_cases_vs_HbA1c_filtered_controls_PGS000712,chitinase 1 (chitotriosidase),both
+T2D_cases_vs_HbA1c_filtered_controls_PGS000712,stearate (18:0),none
+T2D_cases_vs_HbA1c_filtered_controls_PGS000712,butyrylcarnitine (C4),none
+T2D_cases_vs_HbA1c_filtered_controls_PGS000712,fms-related tyrosine kinase 3 ligand,both
+T2D_cases_vs_HbA1c_filtered_controls_PGS000712,gamma-glutamyl-alpha-lysine,none
+Type_2_diabetes_SNPs_insulin_action_secretion_PGS000851,N-acetyltryptophan,none
+T2D_cases_vs_HbA1c_filtered_controls_PGS000712,etiocholanolone glucuronide,none
+T2D_cases_vs_HbA1c_filtered_controls_PGS000712,threonine,none
+Type_2_diabetes_SNPs_insulin_action_PGS000850,pyridoxate,none
+Type_2_diabetes_SNPs_insulin_action_secretion_PGS000851,4-allylcatechol sulfate,none
+Type_2_diabetes_SNPs_insulin_action_secretion_PGS000851,interleukin 17C,none
+Type_2_diabetes_SNPs_insulin_action_PGS000850,Triglyceride HDL Ratio,none
+Type_2_diabetes_SNPs_insulin_action_PGS000850,5-methylthioadenosine (MTA),none
+T2D_cases_vs_HbA1c_filtered_controls_PGS000712,homoarginine,none
+Type_2_diabetes_SNPs_insulin_action_secretion_PGS000851,interleukin 17A,none
+Type_2_diabetes_SNPs_insulin_action_secretion_PGS000851,bone morphogenetic protein 6,none
+Type_2_diabetes_SNPs_insulin_action_PGS000850,TRIGLYCERIDES,none
+T2D_cases_vs_HbA1c_filtered_controls_PGS000712,KIT ligand,both
+Type_2_diabetes_SNPs_insulin_action_secretion_PGS000851,LPIR_SCORE,none
+Type_2_diabetes_SNPs_insulin_action_PGS000850,behenoylcarnitine (C22)*,none
+Type_2_diabetes_SNPs_insulin_action_PGS000850,hydroquinone sulfate,none
+Type_2_diabetes_SNPs_insulin_action_PGS000850,1-(1-enyl-palmitoyl)-2-myristoyl-GPC (P-16:0/14:0)*,none
+Type_2_diabetes_SNPs_insulin_action_PGS000850,"iduronidase, alpha-L-",none
+T2D_cases_vs_HbA1c_filtered_controls_PGS000712,acisoga,none
+Type_2_diabetes_SNPs_insulin_action_PGS000850,interleukin 6 receptor,none
+Type_2_diabetes_SNPs_insulin_action_secretion_PGS000851,homocitrulline,none
+Type_2_diabetes_SNPs_insulin_action_PGS000850,picolinate,none
+T2D_cases_vs_HbA1c_filtered_controls_PGS000712,LPIR_SCORE,none
+Type_2_diabetes_SNPs_insulin_action_secretion_PGS000851,"N,N-dimethylalanine",none
+T2D_cases_vs_HbA1c_filtered_controls_PGS000712,"tumor necrosis factor (ligand) superfamily, member 11",eQTL
+T2D_cases_vs_HbA1c_filtered_controls_PGS000712,urea,none
+Type_2_diabetes_SNPs_insulin_action_secretion_PGS000851,cathepsin L,none
+T2D_cases_vs_HbA1c_filtered_controls_PGS000712,surfactant protein D,both
+T2D_cases_vs_HbA1c_filtered_controls_PGS000712,arginine,none
+T2D_cases_vs_HbA1c_filtered_controls_PGS000712,tyrosine,none
+Type_2_diabetes_SNPs_insulin_action_secretion_PGS000851,growth differentiation factor 15,none
+T2D_cases_vs_HbA1c_filtered_controls_PGS000712,gamma-glutamylthreonine,none
+Type_2_diabetes_SNPs_insulin_action_PGS000850,"2,3-dihydroxyisovalerate",none
+T2D_cases_vs_HbA1c_filtered_controls_PGS000712,BUN/CREAT RATIO,none
+Type_2_diabetes_SNPs_insulin_action_secretion_PGS000851,gastric intrinsic factor (vitamin B synthesis),none
+T2D_cases_vs_HbA1c_filtered_controls_PGS000712,UREA NITROGEN,none
+Type_2_diabetes_SNPs_insulin_action_secretion_PGS000851,"interleukin 10 receptor, alpha",none
+Type_2_diabetes_SNPs_insulin_action_secretion_PGS000851,fibroblast growth factor 23,none
+Type_2_diabetes_SNPs_insulin_action_PGS000850,interleukin 2,none
+Type_2_diabetes_T2D_PGS004923,N-acetylmethionine,none
+Type_2_diabetes_T2D_PGS004923_Age_<_45,N-acetylmethionine,none
+Type_2_diabetes_T2D_PGS004923,4-ethylphenylsulfate,none
+Type_2_diabetes_T2D_PGS004923,TRIGLYCERIDES,none
+Type_2_diabetes_T2D_PGS004923,LDL SMALL,none
+Timmers_healthspan,ALKALINE PHOSPHATASE,none
+Longevity_PGS000906,3-methyl catechol sulfate (1),none
+Timmers_lifespan,"5alpha-pregnan-3beta,20beta-diol monosulfate (1)",none
+Timmers_healthspan,iminodiacetate (IDA),none
+Timmers_lifespan,"5alpha-pregnan-3beta,20alpha-diol monosulfate (2)",none
+Longevity_PGS000906,homocitrulline,none
+Longevity_PGS000906,3-hydroxypyridine sulfate,none
+Timmers_longevity,thymol sulfate,none
+Timmers_longevity,POTASSIUM,none
+Timmers_longevity,"1,5-anhydroglucitol (1,5-AG)",none
+Timmers_longevity,interleukin 17C,both
+Timmers_longevity,interleukin 24,both
+Timmers_longevity,AXL receptor tyrosine kinase,eQTL
+Longevity_PGS000906,octadecadienedioate (C18:2-DC)*,none
+Timmers_longevity,1-stearoyl-GPI (18:0),none
+mvAge,decadienedioic acid (C10:2-DC)**,none
+Timmers_healthspan,sarcosine,none
+mvAge,"5alpha-pregnan-3beta,20beta-diol monosulfate (1)",none
+Longevity_PGS000906,glycosyl-N-behenoyl-sphingadienine (d18:2/22:0)*,none
+Timmers_healthspan,ASAT (SGOT),none
+Timmers_healthspan,2-hydroxyhippurate (salicylurate),none
+Timmers_lifespan,thymic stromal lymphopoietin,eQTL
+Longevity_PGS000906,"CREATININE ENZ, SER",none
+Timmers_lifespan,"serpin peptidase inhibitor, clade A (alpha-1 antiproteinase, antitrypsin), member 12",both
+mvAge,"5alpha-pregnan-3beta,20beta-diol monosulfate (1)",none
+Longevity_PGS000906,"5alpha-pregnan-3beta,20beta-diol monosulfate (1)",none
+Timmers_lifespan,"interleukin 10 receptor, alpha",both
+Timmers_healthspan,chymotrypsin C (caldecrin),both
+Longevity_PGS000906,methyl-4-hydroxybenzoate sulfate,none
+Longevity_PGS000906,chemokine (C motif) ligand 1,eQTL
+mvAge,chemokine (C-C motif) ligand 4,both
+Longevity_PGS000906,taurocholenate sulfate*,none
+Timmers_longevity,CD163 molecule,both
+Timmers_lifespan,pregnanediol-3-glucuronide,none
+Longevity_PGS000906,4-chlorobenzoic acid,none
+Longevity_PGS000906,KIT ligand,none
+Timmers_longevity,1-methyl-4-imidazoleacetate,none
+mvAge,"pentraxin 3, long",both
+Timmers_longevity,selectin P ligand,none
+Timmers_lifespan,CARBON DIOXIDE (CO2),none
+Timmers_lifespan,CUB domain containing protein 1,both
+Timmers_lifespan,theobromine,none
+Timmers_longevity,1-(1-enyl-stearoyl)-2-dihomo-linolenoyl-GPE (P-18:0/20:3)*,none
+mvAge,methyl-4-hydroxybenzoate sulfate,none
+Timmers_longevity,3-hydroxyhexanoate,none
+Timmers_healthspan,caffeine,none
+Timmers_healthspan,ALBUMIN,none
+Timmers_healthspan,"interleukin 2 receptor, beta",both
+Timmers_healthspan,proline/arginine-rich end leucine-rich repeat protein,both
+Timmers_lifespan,tumor necrosis factor,both
+mvAge,salicylate,none
+Timmers_healthspan,quinate,none
+Timmers_lifespan,ethyl alpha-glucopyranoside,none
+Timmers_healthspan,salicylate,none
+Timmers_longevity,matrix metallopeptidase 12 (macrophage elastase),both
+Timmers_longevity,(S)-a-amino-omega-caprolactam,none
+Timmers_longevity,imidazole lactate,none
+Timmers_lifespan,docosahexaenoylcholine,none
+Timmers_lifespan,CRP HIGH SENSITIVITY,none
+mvAge,sulfate of piperine metabolite C16H19NO3 (3)*,none
+Timmers_lifespan,"interleukin 10 receptor, beta",both
+Longevity_PGS000906,"transforming growth factor, alpha",eQTL
+Timmers_lifespan,"tumor necrosis factor receptor superfamily, member 10c, decoy without an intracellular domain",both
+Longevity_PGS000906,oncostatin M,none
+Timmers_longevity,adenosine,none
+Longevity_PGS000906,androsterone sulfate,none
+Longevity_PGS000906,1-(1-enyl-palmitoyl)-2-docosahexaenoyl-GPC (P-16:0/22:6)*,none
+Timmers_lifespan,carboxypeptidase A1 (pancreatic),none
+Longevity_PGS000906,"5alpha-pregnan-3beta,20alpha-diol monosulfate (2)",none
+mvAge,chemokine (C-X-C motif) ligand 11,both
+mvAge,S-allylcysteine,none
+Longevity_PGS000906,lignoceroyl sphingomyelin (d18:1/24:0),none
+Longevity_PGS000906,1-(1-enyl-stearoyl)-2-docosahexaenoyl-GPC (P-18:0/22:6)*,none
+Timmers_healthspan,homocitrulline,none
+Longevity_PGS000906,matrix metallopeptidase 1 (interstitial collagenase),none
+Timmers_lifespan,glial cell derived neurotrophic factor,none
+Timmers_healthspan,"N2,N2-dimethylguanosine",none
+mvAge,vascular endothelial growth factor A,both
+Timmers_longevity,adenine,none
+Timmers_healthspan,3-(4-hydroxyphenyl)lactate,none
+Timmers_lifespan,chemokine (C motif) ligand 1,none
+Timmers_healthspan,chemokine (C-C motif) ligand 20,both
+mvAge,(R)-3-hydroxybutyrylcarnitine,none
+Timmers_healthspan,2-aminoheptanoate,none
+Timmers_longevity,dihomo-linoleoylcarnitine (C20:2)*,none
+Longevity_PGS000906,lysine,none
+Timmers_longevity,"matrix metallopeptidase 7 (matrilysin, uterine)",none
+mvAge,interleukin 17D,none
+Timmers_lifespan,glycocholenate sulfate*,none
+Longevity_PGS000906,N-acetylmethionine,none
+mvAge,"3-bromo-5-chloro-2,6-dihydroxybenzoic acid*",none
+Longevity_PGS000906,alanine,none
+Longevity_PGS000906,citrate,none
+Longevity_PGS000906,3-methoxytyrosine,none
+Longevity_PGS000906,LDL SMALL,none
+mvAge,glyoxalase I,both
+Timmers_lifespan,quinolinate,none
+Longevity_PGS000906,2-linoleoyl-GPC (18:2)*,none
+Timmers_healthspan,orotate,none
+Timmers_longevity,taurocholenate sulfate*,none
+Timmers_lifespan,"interleukin 2 receptor, beta",both
+Timmers_healthspan,"peptidase inhibitor 3, skin-derived",both
+Timmers_lifespan,"collagen, type I, alpha 1",both
+Timmers_lifespan,3-methoxytyrosine,none
+Timmers_longevity,glycocholenate sulfate*,none
+Longevity_PGS000906,3-aminoisobutyrate,none
+Timmers_healthspan,artemin,both
+Timmers_healthspan,cinnamoylglycine,none
+Timmers_longevity,TIMP metallopeptidase inhibitor 4,both
+mvAge,stachydrine,none
+Timmers_longevity,p-cresol glucuronide*,none
+Longevity_PGS000906,malate,none
+Timmers_healthspan,perfluorooctanoate (PFOA),none
+Timmers_longevity,3-formylindole,none
+Timmers_longevity,S-1-pyrroline-5-carboxylate,none
+Longevity_PGS000906,1-palmitoyl-2-linoleoyl-GPC (16:0/18:2),none
+Timmers_lifespan,thioproline,none
+Timmers_longevity,fibroblast growth factor 5,both
+Timmers_healthspan,glycodeoxycholate 3-sulfate,none
+Longevity_PGS000906,LDL PARTICLE NUMBER,none
+Timmers_lifespan,interleukin 24,both
+Timmers_longevity,3-hydroxy-3-methylglutarate,none
+Longevity_PGS000906,ribitol,none
+Timmers_longevity,glycocholate,none
+Timmers_longevity,chymotrypsin C (caldecrin),both
+Timmers_healthspan,interleukin 4,eQTL
+Longevity_PGS000906,betaine,none
+Timmers_healthspan,beta-cryptoxanthin,none
+Longevity_PGS000906,S100 calcium binding protein A12,eQTL
+Timmers_healthspan,S-methylcysteine sulfoxide,none
+mvAge,succinate,none
+Timmers_lifespan,interleukin 20,both
+Timmers_lifespan,HDL PARTICLE NUMBER,none
+Timmers_longevity,"CREATININE ENZ, SER",none
+Longevity_PGS000906,DPA,none
+Timmers_longevity,"sphingomyelin (d18:1/14:0, d16:1/16:0)*",none
+Timmers_longevity,4-ethylphenylsulfate,none
+Longevity_PGS000906,deoxycarnitine,none
+Timmers_healthspan,URIC ACID,none
+Timmers_lifespan,5-methyluridine (ribothymidine),none
+Timmers_healthspan,N-acetylglutamine,none
+Timmers_longevity,glycodeoxycholate 3-sulfate,none
+Longevity_PGS000906,vanillactate,none
+mvAge,"collagen, type I, alpha 1",both
+Timmers_longevity,ribonate,none
+Timmers_healthspan,stachydrine,none
+Longevity_PGS000906,renin,none
+mvAge,N-methylproline,none
+Timmers_longevity,surfactant protein D,both
+Timmers_longevity,4-hydroxychlorothalonil,none
+Timmers_healthspan,gastric intrinsic factor (vitamin B synthesis),none
+Timmers_healthspan,chemokine (C-C motif) ligand 19,both
+Timmers_lifespan,tyrosine,none
+Timmers_healthspan,propionylglycine,none
+Timmers_healthspan,N-methylproline,none
+Timmers_healthspan,ALKALINE PHOSPHATASE,none
+Timmers_healthspan,HOMA-IR,none
+mvAge,GLUCOSE,none
+Timmers_longevity,systolic,none
+Timmers_healthspan,PULSE_PRESSURE,none
+Timmers_healthspan_Age_>_45,ALKALINE PHOSPHATASE,none
+Timmers_longevity_Age_>_45,systolic,none
+Timmers_lifespan_Age_>_45,HDL PARTICLE NUMBER,none
+mvAge,HOMA-IR,none
+Timmers_lifespan_Age_>_45,MEAN_ARTERIAL_BLOOD_PRESSURE,none
+Timmers_healthspan_Age_<_45,HOMA-IR,none
+Timmers_lifespan,CRP HIGH SENSITIVITY,none
+mvAge,S-allylcysteine,none
+Timmers_healthspan,ALAT (SGPT),none
+Timmers_longevity_Age_<_45,CHLORIDE,none
+Timmers_lifespan_Age_<_45,thymic stromal lymphopoietin,eQTL
+Timmers_lifespan_Age_<_45,CRP HIGH SENSITIVITY,none
+Timmers_longevity_Age_<_45,SODIUM,none
+Timmers_lifespan,erythritol,none
+mvAge,2-hydroxyhippurate (salicylurate),none
+mvAge_Age_<_45,CARBON DIOXIDE (CO2),none
+Timmers_lifespan,LDL SMALL,none
+Timmers_lifespan,thymic stromal lymphopoietin,eQTL
+Timmers_longevity,POTASSIUM,none
+Timmers_longevity,interleukin 17C,both
+Timmers_healthspan_Age_>_45,ALAT (SGPT),none
+mvAge_Age_>_45,S-allylcysteine,none
+Timmers_lifespan,GLUCOSE,none
+Timmers_lifespan_Age_>_45,LDL SMALL,none
+mvAge,chemokine (C-C motif) ligand 4,both
+mvAge,sulfate of piperine metabolite C16H19NO3 (3)*,none
+mvAge,erythritol,none
+Timmers_longevity_Age_>_45,interleukin 17C,both
+Timmers_healthspan,interleukin 13,both
+Timmers_longevity,3-formylindole,none
+Timmers_lifespan_Age_>_45,PULSE_PRESSURE,none
+mvAge,"collagen, type I, alpha 1",both
+Timmers_healthspan_Age_>_45,3-phenylpropionate (hydrocinnamate),none
+Timmers_healthspan,3-hydroxyisobutyrate,none
+Timmers_lifespan_Age_>_45,UREA NITROGEN,none
+Timmers_healthspan,artemin,both
+Timmers_healthspan,propionylglycine,none
+Timmers_healthspan,stachydrine,none
+Timmers_lifespan,5-methyluridine (ribothymidine),none
+Timmers_healthspan,N-acetylglycine,none
+Timmers_healthspan_Age_<_45,diastolic,none
+Timmers_healthspan,MEAN_ARTERIAL_BLOOD_PRESSURE,none
+Timmers_lifespan_Age_>_45,"interleukin 2 receptor, beta",both
+Timmers_longevity_Age_>_45,glycodeoxycholate 3-sulfate,none
+Timmers_longevity,3-hydroxy-3-methylglutarate,none
+Timmers_longevity,surfactant protein D,both
+Timmers_lifespan,tyrosine,none
+Timmers_healthspan_Age_>_45,cinnamoylglycine,none
+Timmers_longevity,chymotrypsin C (caldecrin),both
+mvAge_Age_<_45,CHLORIDE,none
+Timmers_longevity,ribonate,none
+Timmers_healthspan,chemokine (C-C motif) ligand 19,both
+Timmers_lifespan,interleukin 20,both
+Timmers_healthspan,cinnamoylglycine,none
+mvAge,CHLORIDE,none
+Timmers_healthspan,gastric intrinsic factor (vitamin B synthesis),none
+Timmers_healthspan,N-methylproline,none

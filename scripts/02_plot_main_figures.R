@@ -44,12 +44,12 @@ save_base_plot(
 # restricted to the aging-related domains.
 p_fig2c <- plot_top_omic_jitter(
   vae_resid,
-  "Top PRS associations across omic features",
+  NULL,
   n_features = 10
 )
 p_fig2d <- plot_top_omic_jitter(
   vae_age,
-  "Top PRS associations across omic features",
+  NULL,
   n_features = 10
 )
 save_plot(p_fig2c, "fig02c_age_residualized_top_features", 180, 90, paths$output_dir)
@@ -73,14 +73,14 @@ shared_max <- max(c(pd_matrix$data$abs_est, als_matrix$data$abs_est), na.rm = TR
 if (!is.finite(shared_max) || shared_max <= 0) shared_max <- 1
 
 p_pd <- plot_neuro_all_feature_matrix(
-  pd_matrix$data, "Parkinson's disease", size_limits = c(0, shared_max), show_legend = FALSE
+  pd_matrix$data, "Parkinson's disease", size_limits = c(0, shared_max), show_legend = FALSE,axis_text_y_pt = 6
 )
 p_als <- plot_neuro_all_feature_matrix(
-  als_matrix$data, "Amyotrophic lateral sclerosis", size_limits = c(0, shared_max), show_legend = FALSE
+  als_matrix$data, "Amyotrophic lateral sclerosis", size_limits = c(0, shared_max), show_legend = FALSE,axis_text_y_pt = 6
 )
-save_plot(p_pd, "fig03b_pd_feature_by_model_matrix", 88,
+save_plot(p_pd, "fig03b_pd_feature_by_model_matrix", 110,
           min(210, max(125, 28 + 4.15 * pd_matrix$n_features)), paths$output_dir)
-save_plot(p_als, "fig03c_als_feature_by_model_matrix", 88,
+save_plot(p_als, "fig03c_als_feature_by_model_matrix", 110,
           min(210, max(125, 28 + 4.15 * als_matrix$n_features)), paths$output_dir)
 legend_source <- plot_neuro_all_feature_matrix(
   pd_matrix$data, NULL, size_limits = c(0, shared_max), show_legend = TRUE
@@ -104,9 +104,16 @@ save_plot(p_ad, "fig04a_ad_lollipop", 180, 180, paths$output_dir)
 ad_age <- prepare_ad_age_strata_plot_data(
   vae_age, DOMAIN_SETS$AD$prs, repro_threshold = 50, label_max_chars = 40
 )
-p_ad_age <- plot_ad_age_strata(ad_age, title = NULL, show_legend = TRUE)
-save_plot(p_ad_age, "fig04b_ad_age_context", 88,
-          min(130, max(92, 28 + 3.0 * n_distinct(ad_age$feature_label_full))), paths$output_dir)
+p_ad_age <- plot_ad_age_strata(ad_age, title = NULL, show_legend = FALSE)
+save_plot(p_ad_age, "fig04b_ad_age_context", 120, 58, paths$output_dir)
+ad_age_legend_source <- plot_ad_age_strata(
+  ad_age, title = NULL, show_legend = TRUE
+)
+ad_age_legend <- extract_plot_legend(ad_age_legend_source)
+if (!is.null(ad_age_legend)) {
+  save_base_plot(function() grid::grid.draw(ad_age_legend),
+                 "fig04b_legend", 180, 24, paths$output_dir)
+}
 write_tsv(ad_age %>% mutate(across(where(is.factor), as.character)),
           file.path(paths$output_dir, "fig04b_panel_data.tsv"))
 
@@ -126,7 +133,7 @@ save_plot(
   "fig05b_cvd_lollipop", 180, 180, paths$output_dir
 )
 cvd_repeated <- make_domain_replicated_table(DOMAIN_SETS$CVD$prs, vae_resid, vae_age)
-p_cvd_bubble <- plot_domain_bubble(cvd_repeated, title = "Cardiovascular disease: associations recurring across age models")
+p_cvd_bubble <- plot_domain_bubble(cvd_repeated, title = "CVD: associations recurring across age models")
 save_plot(p_cvd_bubble, "fig05c_cvd_recurring_associations", 88,
           min(125, max(92, 50 + 2.4 * n_distinct(cvd_repeated$omic_clean))), paths$output_dir)
 write_tsv(cvd_repeated %>% mutate(across(where(is.factor), as.character)),
@@ -142,10 +149,105 @@ for (extension in c("pdf", "png")) {
 aou <- read_aou_inputs(paths$data_dir)
 aou_pairs <- prepare_aou_vae_pairs(aou$results, aou$qtl)
 ancestry <- prepare_ancestry_data(aou$demographics)
-save_plot(plot_ancestry_pie(ancestry, "Chemistries"),
+save_plot(plot_ancestry_pie(ancestry, "Chemistries", show_legend = FALSE),
           "fig06a2_chemistry_ancestry", 88, 78, paths$output_dir)
-save_plot(plot_ancestry_pie(ancestry, "Proteomics"),
+save_plot(plot_ancestry_pie(ancestry, "Proteomics", show_legend = FALSE),
           "fig06a3_proteomics_ancestry", 88, 78, paths$output_dir)
+draw_ancestry_legend <- function() {
+  grid::grid.newpage()
+
+  column_widths <- c(14, rep((75 - 14) / 3, 3))
+
+  grid::pushViewport(
+    grid::viewport(
+      layout = grid::grid.layout(
+        nrow = 2,
+        ncol = 4,
+        widths = grid::unit(column_widths, "mm"),
+        heights = grid::unit(c(6.5, 6.5), "mm")
+      )
+    )
+  )
+
+  grid::grid.text(
+    "Genetic\nancestry",
+    vp = grid::viewport(layout.pos.row = 1:2, layout.pos.col = 1),
+    just = "center",
+    gp = grid::gpar(
+      fontfamily = NATURE$font,
+      fontsize = NATURE$small_pt,
+      fontface = "bold",
+      lineheight = 0.9
+    )
+  )
+
+  legend_items <- data.frame(
+    row = c(1, 2, 1, 2, 1, 2),
+    column = c(2, 2, 3, 3, 4, 4),
+    label = c(
+      "Admixed\nAmerican",
+      "African",
+      "East\nAsian",
+      "European",
+      "Middle\nEastern",
+      "South\nAsian"
+    ),
+    colour = c(
+      "#CA699D",
+      "#E66101",
+      "#0571B0",
+      "#B2B2B2",
+      "#E6AB02",
+      "#1B9E77"
+    ),
+    stringsAsFactors = FALSE
+  )
+
+  for (i in seq_len(nrow(legend_items))) {
+    grid::pushViewport(
+      grid::viewport(
+        layout.pos.row = legend_items$row[i],
+        layout.pos.col = legend_items$column[i]
+      )
+    )
+
+    grid::grid.rect(
+      x = grid::unit(0.8, "mm"),
+      y = grid::unit(0.5, "npc"),
+      width = grid::unit(3.6, "mm"),
+      height = grid::unit(3.6, "mm"),
+      just = c("left", "center"),
+      gp = grid::gpar(
+        fill = legend_items$colour[i],
+        col = NA
+      )
+    )
+
+    grid::grid.text(
+      legend_items$label[i],
+      x = grid::unit(9.5, "mm"),
+      y = grid::unit(0.5, "npc"),
+      just = "center",
+      gp = grid::gpar(
+        fontfamily = NATURE$font,
+        fontsize = 4.8,
+        lineheight = 0.9
+      )
+    )
+
+    grid::popViewport()
+  }
+
+  grid::popViewport()
+}
+
+save_base_plot(
+  draw_ancestry_legend,
+  "fig06a_ancestry_legend",
+  75,
+  13,
+  paths$output_dir
+)
 
 forest_specs <- tribble(
   ~omic, ~relation, ~stub, ~title,

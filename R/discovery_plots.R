@@ -103,7 +103,7 @@ DOMAIN_SETS <- list(
   ),
   T2D = list(
     title = "Type 2 diabetes",
-    center_label = "Type 2\nDiabetes\nPRS",
+    center_label = "Type 2\nDiabetes",
     prs = PRS_DOMAINS$T2D_PRS
   ),
   Longevity = list(
@@ -606,12 +606,16 @@ plot_top_omic_jitter <- function(df, title, n_features = 10, repro_threshold = 5
       box.padding = 0.15,
       max.overlaps = 30,
       segment.size = 0.15,
-      min.segment.length = 0
+      min.segment.length = 0,
+      show.legend = FALSE
     ) +
     scale_colour_manual(values = CATEGORY_COLORS, name = "Omic category") +
     labs(title = title, x = NULL, y = "|Normalized Bayes K|") +
     theme_nature(legend_position = "top") +
-    theme(axis.text.x = element_text(angle = 40, hjust = 1, vjust = 1))
+    theme(
+      axis.text.x = element_text(angle = 40, hjust = 1, vjust = 1),
+      plot.margin = margin(t = 3, r = 3, b = 3, l = 12)
+    )
 }
 
 clean_matrix <- function(mat) {
@@ -1150,76 +1154,157 @@ prepare_ad_age_strata_plot_data <- function(
 plot_ad_age_strata <- function(ad_age_df, title = NULL, show_legend = TRUE) {
   if (nrow(ad_age_df) == 0) return(NULL)
 
+  age_levels <- c("All", "<45", ">45")
   feature_axis <- ad_age_df %>%
     distinct(feature_label_full, feature_label, row_plot) %>%
-    arrange(row_plot)
+    arrange(row_plot) %>%
+    mutate(feature_display = make.unique(as.character(feature_label), sep = " "))
 
-  separator_df <- ad_age_df %>%
-    distinct(feature_label_full, pattern_priority, row_plot) %>%
-    group_by(pattern_priority) %>%
-    summarise(yintercept = min(row_plot) - 0.5, .groups = "drop") %>%
-    filter(yintercept > 0.5)
+  matrix_df <- ad_age_df %>%
+    left_join(
+      feature_axis %>%
+        select(feature_label_full, feature_label, feature_display),
+      by = c("feature_label_full", "feature_label")
+    ) %>%
+    mutate(
+      AgeSet = factor(as.character(AgeSet), levels = age_levels),
+      feature_display = factor(
+        feature_display,
+        levels = feature_axis$feature_display
+      ),
+      abs_est = abs(suppressWarnings(as.numeric(est))),
+      effect_direction = factor(
+        as.character(effect_direction),
+        levels = c("Negative", "Positive")
+      ),
+      QTL_type = factor(as.character(QTL_type), levels = names(QTL_SHAPES))
+    ) %>%
+    filter(!is.na(AgeSet), !is.na(feature_display), is.finite(abs_est))
+
+  background_df <- tidyr::expand_grid(
+    feature_display = factor(
+      feature_axis$feature_display,
+      levels = feature_axis$feature_display
+    ),
+    AgeSet = factor(age_levels, levels = age_levels)
+  )
+
+  max_abs <- max(matrix_df$abs_est, na.rm = TRUE)
+  if (!is.finite(max_abs) || max_abs <= 0) max_abs <- 1
+
+  n_features <- nrow(feature_axis)
+  axis_text_y_pt <- case_when(
+    n_features >= 45 ~ 4.0,
+    n_features >= 38 ~ 4.3,
+    n_features >= 30 ~ 4.6,
+    TRUE ~ 5.0
+  )
 
   legend_position_use <- if (isTRUE(show_legend)) "bottom" else "none"
 
-  ggplot(ad_age_df, aes(x = AgeSetIndex, y = row_plot)) +
-    geom_hline(
-      data = separator_df,
-      aes(yintercept = yintercept),
-      inherit.aes = FALSE,
-      linetype = "dotted",
-      linewidth = 0.25,
-      colour = "grey70"
+  ggplot(background_df, aes(x = AgeSet, y = feature_display)) +
+    geom_tile(
+      fill = "grey96",
+      colour = "white",
+      linewidth = 0.30,
+      width = 0.96,
+      height = 0.92
     ) +
     geom_point(
-      aes(size = effect_size, fill = effect_direction),
-      shape = 21,
+      data = matrix_df,
+      aes(
+        size = abs_est,
+        fill = effect_direction,
+        shape = QTL_type
+      ),
       colour = "black",
-      stroke = 0.22,
-      alpha = 0.95
+      stroke = 0.25,
+      alpha = 0.97,
+      na.rm = TRUE
     ) +
-    scale_x_continuous(
-      breaks = unname(AGE_SET_X),
-      labels = names(AGE_SET_X),
-      limits = c(0.5, length(AGE_SET_LEVELS) + 0.5),
-      expand = expansion(add = 0),
-      position = "top"
+    scale_x_discrete(
+      drop = FALSE,
+      position = "top",
+      labels = c(
+        "All" = "Age-included\nall ages",
+        "<45" = "Age-included\n<45",
+        ">45" = "Age-included\n>45"
+      )
     ) +
-    scale_y_continuous(
-      breaks = feature_axis$row_plot,
-      labels = feature_axis$feature_label,
-      limits = c(0.5, nrow(feature_axis) + 0.5),
-      expand = expansion(add = 0)
-    ) +
+    scale_y_discrete(drop = FALSE) +
     scale_fill_manual(
       values = EFFECT_COLORS[c("Negative", "Positive")],
-      labels = c("Negative", "Positive"),
-      name = "Association"
+      name = "Association",
+      drop = FALSE
+    ) +
+    scale_shape_manual(
+      values = QTL_SHAPES,
+      name = "QTL type",
+      drop = FALSE
     ) +
     scale_size_continuous(
-      range = c(1.1, 3.2),
+      limits = c(0, max_abs),
+      range = c(0.3, 1.8),
       name = "|Normalized Bayes K|"
     ) +
-    labs(title = title, x = "Age set", y = NULL) +
+    labs(title = title, x = NULL, y = NULL) +
     coord_cartesian(clip = "off") +
     theme_nature(legend_position = legend_position_use, grid = FALSE) +
     guides(
-      fill = guide_legend(order = 1, override.aes = list(size = 2.3, alpha = 1)),
-      size = guide_legend(order = 2)
+      fill = guide_legend(
+        order = 1,
+        nrow = 1,
+        override.aes = list(
+          shape = 21,
+          size = 2.3,
+          colour = "black",
+          alpha = 1
+        )
+      ),
+      shape = guide_legend(
+        order = 2,
+        nrow = 1,
+        override.aes = list(
+          size = 2.3,
+          fill = "white",
+          colour = "black",
+          alpha = 1
+        )
+      ),
+      size = guide_legend(order = 3, nrow = 1)
     ) +
     theme(
-      panel.background = element_rect(fill = "grey96", colour = NA),
       panel.grid = element_blank(),
       axis.line = element_blank(),
       axis.ticks = element_blank(),
-      axis.title.x.top = element_text(size = NATURE$base_pt, face = "bold", margin = margin(b = 2)),
-      axis.text.x.top = element_text(size = NATURE$base_pt, face = "bold", colour = "black"),
+      axis.text.x.top = element_text(
+        size = 5.4,
+        face = "bold",
+        lineheight = 0.88,
+        hjust = 0.5,
+        vjust = 0,
+        margin = margin(b = 3)
+      ),
       axis.text.x.bottom = element_blank(),
-      axis.text.y = element_text(size = NATURE$small_pt, face = "bold", colour = "grey25"),
+      axis.text.y = element_text(
+        size = axis_text_y_pt,
+        face = "bold",
+        colour = "grey20",
+        lineheight = 0.84,
+        margin = margin(r = 2)
+      ),
+      plot.title = element_text(
+        size = NATURE$title_pt,
+        face = "bold",
+        hjust = 0,
+        margin = margin(b = 5)
+      ),
+      legend.position = legend_position_use,
       legend.box = "vertical",
-      legend.margin = margin(1, 0, 0, 0),
-      legend.box.margin = margin(0, 0, 0, 0),
-      plot.margin = margin(7, 5, 5, 5)
+      legend.box.just = "left",
+      legend.justification = c(0, 0.5),
+      legend.spacing.y = unit(0.25, "mm"),
+      plot.margin = margin(4, 5, 4, 4)
     )
 }
 

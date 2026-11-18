@@ -1226,9 +1226,9 @@ plot_ad_age_strata <- function(ad_age_df, title = NULL, show_legend = TRUE) {
       drop = FALSE,
       position = "top",
       labels = c(
-        "All" = "Age-included\nall ages",
-        "<45" = "Age-included\n<45",
-        ">45" = "Age-included\n>45"
+        "All" = "All ages",
+        "<45" = "<45",
+        ">45" = ">45"
       )
     ) +
     scale_y_discrete(drop = FALSE) +
@@ -1247,7 +1247,7 @@ plot_ad_age_strata <- function(ad_age_df, title = NULL, show_legend = TRUE) {
       range = c(0.3, 1.8),
       name = "|Normalized Bayes K|"
     ) +
-    labs(title = title, x = NULL, y = NULL) +
+    labs(title = title, x = "Age-included", y = NULL) +
     coord_cartesian(clip = "off") +
     theme_nature(legend_position = legend_position_use, grid = FALSE) +
     guides(
@@ -1284,6 +1284,12 @@ plot_ad_age_strata <- function(ad_age_df, title = NULL, show_legend = TRUE) {
         hjust = 0.5,
         vjust = 0,
         margin = margin(b = 3)
+      ),
+      axis.title.x.top = element_text(
+        size = 5.4,
+        face = "bold",
+        hjust = 0.5,
+        margin = margin(b = 1)
       ),
       axis.text.x.bottom = element_blank(),
       axis.text.y = element_text(

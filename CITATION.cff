@@ -11,5 +11,6 @@ authors:
     given-names: Ornit
   - family-names: Price
     given-names: Nathan D.
-version: 0.2.0
+version: 0.2.1
+date-released: 2026-11-18
 abstract: "Figure generation from aggregate results, analyte-wise OLS and age-interaction analysis, and All of Us disease-association workflows."

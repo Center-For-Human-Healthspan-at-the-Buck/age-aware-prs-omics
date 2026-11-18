@@ -67,12 +67,12 @@ LAYOUTS = (
     ),
     Layout(
         output="Fig_4.pdf",
-        page_mm=(183.0, 170.0),
+        page_mm=(183.0, 145.0),
         source_dir="outputs/main",
         panels=(
-            Panel("fig04a_ad_lollipop.pdf", (3, 2, 177, 97), "a", (2, 5)),
-            Panel("fig04b_ad_age_context.pdf", (8, 99, 129, 57), "b", (14, 102)),
-            Panel("fig04b_legend.pdf", (20, 157, 143, 12)),
+            Panel("fig04a_ad_lollipop.pdf", (3, 7, 104, 119), "a", (2, 7)),
+            Panel("fig04b_ad_age_context.pdf", (110, 4, 70, 124), "b", (109, 7)),
+            Panel("fig04b_legend.pdf", (24, 132, 135, 11)),
         ),
     ),
     Layout(

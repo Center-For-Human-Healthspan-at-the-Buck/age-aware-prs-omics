@@ -105,7 +105,7 @@ ad_age <- prepare_ad_age_strata_plot_data(
   vae_age, DOMAIN_SETS$AD$prs, repro_threshold = 50, label_max_chars = 40
 )
 p_ad_age <- plot_ad_age_strata(ad_age, title = NULL, show_legend = FALSE)
-save_plot(p_ad_age, "fig04b_ad_age_context", 120, 58, paths$output_dir)
+save_plot(p_ad_age, "fig04b_ad_age_context", 76, 126, paths$output_dir)
 ad_age_legend_source <- plot_ad_age_strata(
   ad_age, title = NULL, show_legend = TRUE
 )

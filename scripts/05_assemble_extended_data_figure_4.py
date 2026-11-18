@@ -17,6 +17,8 @@ from pathlib import Path
 import matplotlib
 
 matplotlib.use("Agg")
+matplotlib.rcParams["pdf.fonttype"] = 42
+matplotlib.rcParams["ps.fonttype"] = 42
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
 from matplotlib.ticker import PercentFormatter
@@ -155,7 +157,7 @@ def plot_domain_bars(
 
 
 def draw(coverage: pd.DataFrame, counts: pd.DataFrame, destination: Path) -> None:
-    fig = plt.figure(figsize=(7.2, 6.25), facecolor="white")
+    fig = plt.figure(figsize=(180 / 25.4, 156.25 / 25.4), facecolor="white")
     top = fig.add_axes((0.14, 0.645, 0.81, 0.255))
     left = fig.add_axes((0.14, 0.155, 0.35, 0.275))
     right = fig.add_axes((0.57, 0.155, 0.38, 0.275), sharey=left)

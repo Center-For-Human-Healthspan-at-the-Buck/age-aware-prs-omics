@@ -155,7 +155,7 @@ prepare_ancestry_data <- function(demographics) {
   ancestry %>% left_join(sample_sizes, by = "modality")
 }
 
-plot_ancestry_pie <- function(ancestry_df, modality_name) {
+plot_ancestry_pie <- function(ancestry_df, modality_name, show_legend = TRUE) {
   plot_df <- ancestry_df %>% filter(modality == modality_name)
   n_value <- unique(plot_df$N)
   ggplot(plot_df, aes(x = "", y = percent, fill = ancestry)) +
@@ -166,17 +166,27 @@ plot_ancestry_pie <- function(ancestry_df, modality_name) {
         "African ancestry" = "#E66101", "Admixed American ancestry" = "#CA699D",
         "East Asian ancestry" = "#0571B0", "European ancestry" = "#B2B2B2",
         "Middle Eastern ancestry" = "#E6AB02", "South Asian ancestry" = "#1B9E77"
-      ), name = "Genetic ancestry"
+      ),
+      labels = c(
+        "African ancestry" = "African",
+        "Admixed American ancestry" = "Admixed American",
+        "East Asian ancestry" = "East Asian",
+        "European ancestry" = "European",
+        "Middle Eastern ancestry" = "Middle Eastern",
+        "South Asian ancestry" = "South Asian"
+      ),
+      name = "Genetic ancestry"
     ) +
     labs(title = modality_name, subtitle = paste0("N = ", scales::comma(n_value))) +
     theme_void(base_family = NATURE$font) +
     theme(
-      plot.title = element_text(size = NATURE$title_pt, face = "bold", hjust = 0.5),
+      plot.title = element_text(size = NATURE$title_pt + 2.5, face = "bold", hjust = 0.5),
       plot.subtitle = element_text(size = NATURE$base_pt, hjust = 0.5),
       legend.title = element_text(size = NATURE$small_pt, face = "bold"),
       legend.text = element_text(size = 4.8),
-      legend.position = "bottom"
-    )
+      legend.position = if (isTRUE(show_legend)) "bottom" else "none"
+    ) +
+    guides(fill = guide_legend(ncol = 3))
 }
 
 plot_aou_forest <- function(pair_level, omic_type_value, relation,

@@ -40,12 +40,13 @@ Validate the aggregate inputs:
 Rscript scripts/00_check_inputs.R
 ```
 
-Generate the figure panels:
+Generate the panel files and assembled figures:
 
 ```bash
 Rscript scripts/02_plot_main_figures.R
 Rscript scripts/03_plot_supplementary_figures.R
 Rscript scripts/04_plot_extended_data_figures.R
+python3 scripts/05_assemble_multipanel_figures.py
 python3 scripts/05_assemble_extended_data_figure_4.py
 ```
 
@@ -60,10 +61,13 @@ Outputs are written to:
 - `outputs/main/`
 - `outputs/supplementary/`
 - `outputs/extended_data/`
-- `figures/`
+- `figures/` (assembled Main and Extended Data PDFs)
 
-PDF and 300-dpi PNG files are produced. See `docs/FIGURE_MAP.md` for the
-panel-to-file mapping.
+Panel-level PDF and 300-dpi PNG files are produced. Final multi-panel PDFs are
+assembled directly from the panel PDFs without flattening them to raster
+images. Main figures are limited to 183 mm wide by 170 mm tall; Extended Data
+figures are limited to 180 mm wide by 170 mm tall. See `docs/FIGURE_MAP.md` for
+the complete panel-to-figure mapping.
 
 ## Linear-model workflow
 
@@ -116,7 +120,7 @@ config/            MOVE configuration files
 data/              aggregate and synthetic inputs
 assets/            static workflow schematics
 outputs/           generated panel files
-figures/           assembled Extended Data Figure 4
+figures/           assembled Main and Extended Data figures
 docs/              figure map
 ```
 

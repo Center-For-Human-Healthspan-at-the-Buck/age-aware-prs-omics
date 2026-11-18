@@ -8,16 +8,32 @@ import csv
 import hashlib
 from pathlib import Path
 
+import fitz
+
 
 ROOT = Path(__file__).resolve().parents[1]
 ARIVALE_N = 1491
+COVERAGE_PATH = "figures/Extended_Data_Fig4_AoU_directional_concordance_coverage.tsv"
+FINAL_PDFS = {
+    "figures/Fig_1.pdf": (183.0, 170.0),
+    "figures/Fig_2.pdf": (183.0, 170.0),
+    "figures/Fig_3.pdf": (183.0, 170.0),
+    "figures/Fig_4.pdf": (183.0, 170.0),
+    "figures/Fig_5.pdf": (183.0, 170.0),
+    "figures/Fig_6.pdf": (183.0, 170.0),
+    "figures/Extended_Data_Fig1_Domain_level_model_comparison.pdf": (180.0, 170.0),
+    "figures/Extended_Data_Fig2_Vae_Positive_Control_PRS_Associations.pdf": (180.0, 170.0),
+    "figures/Extended_Data_Fig3_VAE_longevity_associations.pdf": (180.0, 170.0),
+    "figures/Extended_Data_Fig4_AoU_directional_concordance.pdf": (180.0, 170.0),
+}
 REQUIRED = (
+    "assets/fig01_workflow_schematic.pdf",
     "assets/fig06a_disease_association_workflow.pdf",
-    "figures/Extended_Data_Fig4_AoU_directional_concordance.pdf",
-    "figures/Extended_Data_Fig4_AoU_directional_concordance_coverage.tsv",
+    COVERAGE_PATH,
     "config/vae_age__run__id_assoc_bayes.yaml",
     "config/vae_resid_run__id_assoc_bayes.yaml",
     "scripts/aou_workbench/src/aou_replication_utils.py",
+    *FINAL_PDFS,
 )
 OBSOLETE = (
     "assets/fig07a_validation_workflow.pdf",
@@ -48,7 +64,7 @@ def check_inputs() -> None:
         if incorrect:
             raise ValueError(f"{name}: discovery cohort N differs from {ARIVALE_N}")
 
-    path = ROOT / REQUIRED[2]
+    path = ROOT / COVERAGE_PATH
     with path.open(newline="", encoding="utf-8") as handle:
         coverage = list(csv.DictReader(handle, delimiter="\t"))
     observed = {
@@ -59,7 +75,26 @@ def check_inputs() -> None:
     }
     if observed != EXPECTED:
         raise ValueError(f"Extended Data Fig. 4 counts changed: {observed}")
-    print("PASS: figure paths, Arivale cohort N, and AoU concordance counts")
+
+    points_per_mm = 72.0 / 25.4
+    for relative, (max_width_mm, max_height_mm) in FINAL_PDFS.items():
+        document = fitz.open(ROOT / relative)
+        if document.page_count != 1:
+            document.close()
+            raise ValueError(f"{relative}: expected one page")
+        page = document[0]
+        width_mm = page.rect.width / points_per_mm
+        height_mm = page.rect.height / points_per_mm
+        has_editable_content = bool(page.get_text().strip()) or bool(page.get_drawings())
+        document.close()
+        if width_mm > max_width_mm + 0.1 or height_mm > max_height_mm + 0.1:
+            raise ValueError(
+                f"{relative}: {width_mm:.2f} x {height_mm:.2f} mm exceeds "
+                f"{max_width_mm:g} x {max_height_mm:g} mm"
+            )
+        if not has_editable_content:
+            raise ValueError(f"{relative}: page appears to contain only raster artwork")
+    print("PASS: figure paths, sizes, Arivale cohort N, and AoU concordance counts")
 
 
 def package_files() -> list[Path]:
@@ -70,7 +105,11 @@ def package_files() -> list[Path]:
             continue
         if path.is_symlink():
             raise ValueError(f"Unexpected symlink: {path}")
-        if path.is_file() and path.name not in {"MANIFEST.tsv", ".DS_Store"}:
+        if path.is_file() and path.name not in {
+            "MANIFEST.tsv",
+            ".DS_Store",
+            "Rplots.pdf",
+        }:
             files.append(path)
     return sorted(files, key=lambda path: path.relative_to(ROOT).as_posix())
 
